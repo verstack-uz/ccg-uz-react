@@ -4,9 +4,9 @@
  */
 
 // third-party libraries
-import AppIcons from "@/utilities/icons";
-import { AppRoute } from "@/routes";
-import CircularIconButton from "@/components/CircularIconButton";
+import AppIcons from "@/styles/AppIcon";
+import AppPaths from "@/routes/AppPaths";
+import CircularIconButton from "@components/elements/CircularIconButton";
 
 interface HeaderProps {
   title: string;
@@ -23,7 +23,7 @@ export default function Header({
       {!hideSettingsButton && (
         <CircularIconButton
           iconName={AppIcons.SETTINGS}
-          href={AppRoute.SETTINGS}
+          href={AppPaths.SETTINGS}
         />
       )}
     </div>

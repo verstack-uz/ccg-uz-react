@@ -1,4 +1,4 @@
-import { AppTheme, AppThemes } from "@/utilities/types";
+import { AppTheme, AppThemes } from "@/styles/AppTheme";
 
 export namespace Preferences {
   export enum Key {

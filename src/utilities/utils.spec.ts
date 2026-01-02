@@ -1,16 +1,7 @@
-import {
-  vi,
-  describe,
-  it,
-  beforeAll,
-  beforeEach,
-  expect,
-  expectTypeOf,
-} from "vitest";
+import { vi, describe, it, beforeEach, expect, expectTypeOf } from "vitest";
 
-import { Preferences } from "@/utilities/utilities";
-import { AppTheme, AppThemes } from "@/utilities/types";
-import { declareLocalStorageMock } from "@/utilities/mocks";
+import { Preferences } from "@/utilities/utils";
+import { AppTheme, AppThemes, DefaultAppTheme } from "@/styles/AppTheme";
 
 describe("AppThemes", () => {
   it("should be an array", () => {
@@ -41,10 +32,6 @@ describe("AppThemes", () => {
 });
 
 describe("Preferences.setTheme()", () => {
-  beforeAll(() => {
-    declareLocalStorageMock();
-  });
-
   beforeEach(() => {
     localStorage.clear();
   });
@@ -83,14 +70,14 @@ describe("Preferences.setTheme()", () => {
   });
 
   it("should invokle localStorage.setItem when setting theme", () => {
-    const theme = AppThemes.at(0);
+    const theme = DefaultAppTheme;
     const setItemSpy = vi.spyOn(localStorage, localStorage.setItem.name);
     Preferences.setTheme(theme);
     expect(setItemSpy).toHaveBeenCalledWith(Preferences.Key.THEME, theme);
   });
 
   it("should actually set the theme in localStorage", () => {
-    const theme = AppThemes.at(0);
+    const theme = DefaultAppTheme;
     Preferences.setTheme(theme);
     const storedTheme = localStorage.getItem(Preferences.Key.THEME);
     expect(storedTheme).toBe(theme);
@@ -98,10 +85,6 @@ describe("Preferences.setTheme()", () => {
 });
 
 describe("Preferences.getTheme()", () => {
-  beforeAll(() => {
-    declareLocalStorageMock();
-  });
-
   beforeEach(() => {
     localStorage.clear();
   });

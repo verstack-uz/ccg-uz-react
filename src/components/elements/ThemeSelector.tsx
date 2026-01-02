@@ -9,8 +9,8 @@
 import React from "react";
 
 // local / internal stuff
-import { AppTheme, AppThemes } from "@/utilities/types";
-import { StrUtils } from "@/utilities/utilities";
+import { AppTheme, AppThemes } from "@/styles/AppTheme";
+import { StrUtils } from "@/utilities/utils";
 
 interface ThemeSelectorProps {
   theme: AppTheme;
