@@ -5,13 +5,9 @@
 
 - TypeScript
 - React
-- TailwindCSS
-- Shadcn
-- Iconify
-- Vite
-- Vite plugin QR code
+- Shadcn (and Tailwind CSS, of course)
+- Vite (with a QR code plugin)
 - Vitest
 - Jsdom
-- Playwright
 - Eslint (typescript-eslint)
 - Prettier
