@@ -11,7 +11,7 @@ export default function ErrorBoundary() {
       "ErrorBoundary caught an error:",
       error.status,
       error.statusText,
-      error.data
+      error.data,
     );
 
     if (error.status === 404) {

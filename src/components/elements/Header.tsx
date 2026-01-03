@@ -55,9 +55,7 @@ export default function Header() {
                 {navLinks.map((link) => (
                   <NavigationMenuItem key={link.path}>
                     <NavigationMenuLink asChild className="text-white text-md">
-                      <Link to={link.path}>
-                        {link.name.toUpperCase()}
-                      </Link>
+                      <Link to={link.path}>{link.name.toUpperCase()}</Link>
                     </NavigationMenuLink>
                   </NavigationMenuItem>
                 ))}

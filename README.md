@@ -1,6 +1,7 @@
 # CCG.uz portfolio website
 
 ## Technologies used:
+
 - TypeScript
 - React
 - TailwindCSS
