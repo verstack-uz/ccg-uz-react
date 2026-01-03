@@ -1,31 +1,20 @@
-import React from "react";
-import { useNavigate } from "react-router";
-
-import Header from "@components/elements/Header";
+import Navbar, { NavLink } from "@/components/elements/Navbar/Navbar";
 import { Preferences } from "@/utilities/Preferences";
 import AppPaths from "@/routes/AppPaths";
 
 export default function HomePage() {
-  const navigate = useNavigate();
+  const navLinks: NavLink[] = [
+    { name: "Company", path: AppPaths.COMPANY },
+    { name: "Projects", path: AppPaths.PROJECTS },
+    { name: "What we do", path: AppPaths.WHAT_WE_DO },
+    { name: "Career", path: AppPaths.CAREER },
+    { name: "Equipments", path: AppPaths.EQUIPMENTS },
+    { name: "Contact", path: AppPaths.CONTACT },
+  ];
 
   return (
-    <div
-      data-theme={Preferences.getTheme()}
-      className={"w-screen min-h-screen pb-64 motion-preset-fade"}
-    >
-      <Header title={"CCG.uz - Home"} />
-      <div className={"bg-base-100 h-full px-4 pt-4 flex flex-col space-y-4"}>
-        <h1 className={"text-2xl font-bold"}>
-          Welcome to Civil Construction Group (CCG)
-        </h1>
-
-        <a
-          className="btn btn-accent"
-          onClick={() => navigate(AppPaths.COMPANY)}
-        >
-          Company
-        </a>
-      </div>
+    <div data-theme={Preferences.getTheme()}>
+      <Navbar navLinks={navLinks} />
     </div>
   );
 }

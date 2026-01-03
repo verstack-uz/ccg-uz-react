@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 
-import Header from "@components/elements/Header";
+import Navbar from "@/components/elements/Navbar/Navbar";
 import { Preferences } from "@/utilities/Preferences";
 import AppPaths from "@routes/AppPaths";
 
@@ -21,7 +21,7 @@ export default function CompanyPage() {
       data-theme={Preferences.getTheme()}
       className={"w-screen min-h-screen pb-64 motion-preset-fade"}
     >
-      <Header title={pageTitle} />
+      <Navbar title={pageTitle} />
       <div className={"bg-base-100 h-full px-4 pt-4 flex flex-col space-y-4"}>
         <h1 className={"text-2xl font-bold"}>
           About Civil Construction Group (CCG)
