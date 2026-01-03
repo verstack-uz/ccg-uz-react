@@ -1,20 +1,14 @@
-import Navbar, { NavLink } from "@/components/elements/Navbar/Navbar";
-import { Preferences } from "@/utilities/Preferences";
-import AppPaths from "@/routes/AppPaths";
-
 export default function HomePage() {
-  const navLinks: NavLink[] = [
-    { name: "Company", path: AppPaths.COMPANY },
-    { name: "Projects", path: AppPaths.PROJECTS },
-    { name: "What we do", path: AppPaths.WHAT_WE_DO },
-    { name: "Career", path: AppPaths.CAREER },
-    { name: "Equipments", path: AppPaths.EQUIPMENTS },
-    { name: "Contact", path: AppPaths.CONTACT },
-  ];
-
   return (
-    <div data-theme={Preferences.getTheme()}>
-      <Navbar navLinks={navLinks} />
-    </div>
+    <>
+      <h1 className="text-4xl font-bold mb-4">Home</h1>
+      <p className="text-lg text-muted-foreground">
+        Welcome to the Civil Construction Group (CCG) website. We are dedicated
+        to delivering high-quality construction services across various sectors,
+        including infrastructure, commercial, and residential projects. Explore
+        our site to learn more about our services, projects, and commitment to
+        excellence.
+      </p>
+    </>
   );
 }
