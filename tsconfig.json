@@ -1,16 +1,35 @@
 {
   "compilerOptions": {
+    // Base directory for resolving non-relative module names
     "baseUrl": ".",
+
+    // Path aliases for cleaner imports
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@utils/*": ["./src/utilities/*"]
     },
+
+    // Output directory for compiled files
     "outDir": "dist",
+
+    // JS version and module settings
     "target": "ES2024",
     "module": "ES2022",
     "moduleResolution": "bundler",
-    "skipLibCheck": true,
+
+    // Allow default imports from modules with no default export
+    "esModuleInterop": true,
+
+    // JSX support (React 17+)
     "jsx": "react-jsx",
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+
+    // Skip type checking of declaration files
+    "skipLibCheck": true,
+
+    // Enable strict type-checking options
+    "strict": true
   }
 }

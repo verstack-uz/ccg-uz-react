@@ -1,16 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router";
 
-import Header from "@/components/Header";
-import { Preferences } from "@/utilities/utilities";
-import { AppRoute } from "@/routes";
+import Header from "@components/Header";
+import { Preferences } from "@/utilities/utils";
+import { AppRoute } from "@/routes/all";
 
-export default function HomePage() {
+export default function CompanyPage() {
   // Prepare navigation hook
   let navigate = useNavigate();
 
   // Set page title
-  const pageTitle = "CCG.uz - Home";
+  const pageTitle = "CCG company";
   React.useEffect(() => {
     document.title = pageTitle;
   });
@@ -24,14 +24,11 @@ export default function HomePage() {
       <Header title={pageTitle} />
       <div className={"bg-base-100 h-full px-4 pt-4 flex flex-col space-y-4"}>
         <h1 className={"text-2xl font-bold"}>
-          Welcome to Civil Construction Group (CCG)
+          About Civil Construction Group (CCG)
         </h1>
 
-        <a
-          className="btn btn-accent"
-          onClick={() => navigate(AppRoute.COMPANY)}
-        >
-          Company
+        <a className="btn btn-accent" onClick={() => navigate(AppRoute.HOME)}>
+          Home
         </a>
       </div>
     </div>

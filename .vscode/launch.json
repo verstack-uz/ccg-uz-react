@@ -13,11 +13,23 @@
       "preLaunchTask": "npm: test"
     },
     {
+      "type": "node",
+      "request": "launch",
+      "name": "vitest",
+      "runtimeExecutable": "vitest",
+      "cwd": "${workspaceFolder}",
+      "args": []
+    },
+    {
       "name": "browser",
       "request": "launch",
       "type": "chrome",
       "url": "http://localhost:8080",
-      "webRoot": "${workspaceFolder}"
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMapPathOverrides": {
+        "/@fs/*": "/*",
+        "/*": "${webRoot}/*"
+      }
     }
   ]
 }
