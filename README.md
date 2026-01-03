@@ -4,7 +4,7 @@
 - TypeScript
 - React
 - TailwindCSS
-- FlyonUI
+- Shadcn
 - Iconify
 - Vite
 - Vite plugin QR code

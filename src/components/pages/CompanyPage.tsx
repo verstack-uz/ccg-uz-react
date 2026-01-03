@@ -1,36 +1,25 @@
-import React from "react";
 import { useNavigate } from "react-router";
 
-import Navbar from "@/components/elements/Navbar/Navbar";
-import { Preferences } from "@/utilities/Preferences";
 import AppPaths from "@routes/AppPaths";
 
 export default function CompanyPage() {
-  // Prepare navigation hook
   const navigate = useNavigate();
 
-  // Set page title
-  const pageTitle = "CCG company";
-  React.useEffect(() => {
-    document.title = pageTitle;
-  });
-
-  // Render component
   return (
-    <div
-      data-theme={Preferences.getTheme()}
-      className={"w-screen min-h-screen pb-64 motion-preset-fade"}
-    >
-      <Navbar title={pageTitle} />
-      <div className={"bg-base-100 h-full px-4 pt-4 flex flex-col space-y-4"}>
-        <h1 className={"text-2xl font-bold"}>
-          About Civil Construction Group (CCG)
-        </h1>
-
-        <a className="btn btn-accent" onClick={() => navigate(AppPaths.ROOT)}>
-          Home
-        </a>
-      </div>
-    </div>
+    <>
+      <h1 className="text-4xl font-bold mb-4">
+        About Civil Construction Group (CCG)
+      </h1>
+      <p className="text-lg text-muted-foreground">
+        Civil Construction Group (CCG) is a leading construction company
+        specializing in infrastructure development, commercial buildings, and
+        residential projects. With a commitment to quality, safety, and
+        sustainability, CCG has established itself as a trusted partner in the
+        construction industry.
+      </p>
+      <a className="btn btn-accent" onClick={() => navigate(AppPaths.ROOT)}>
+        Back to Home
+      </a>
+    </>
   );
 }
