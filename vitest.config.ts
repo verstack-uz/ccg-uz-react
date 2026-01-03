@@ -21,5 +21,8 @@ export default defineConfig({
     // Great environment for testing
     // and debugging DOM-related code
     environment: "jsdom",
+    coverage: {
+      reporter: ["text", "json", "html", "lcov"],
+    },
   },
 });
