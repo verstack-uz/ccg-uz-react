@@ -31,16 +31,6 @@ jobs:
       - name: Run Vitest with coverage
         run: npm run test:coverage
 
-      - name: Print out CODECOV_TOKEN
-        run: echo "CODECOV_TOKEN is $CODECOV_TOKEN"
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-
-      - name: Print out CODECOV_TOKEN1
-        run: echo "CODECOV_TOKEN1 is $CODECOV_TOKEN
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN1 }}
-
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
         with:
