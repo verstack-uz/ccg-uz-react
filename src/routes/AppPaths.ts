@@ -4,12 +4,14 @@
  * Can simply add a line for a new route and access as Paths.<ROUTE_NAME>.
  */
 
-const AppPaths = {
+const AppPath = {
   ROOT: "/",
   COMPANY: "/company",
   PROJECTS: "/projects",
+  WHAT_WE_DO: "/what-we-do",
+  CAREER: "/career",
   EQUIPMENTS: "/equipments",
-  VACANCIES: "/vacancies",
+  CONTACT: "/contact",
 };
 
-export default AppPaths;
+export default AppPath;

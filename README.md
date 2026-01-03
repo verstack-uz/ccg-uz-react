@@ -1,10 +1,11 @@
 # CCG.uz portfolio website
 
 ## Technologies used:
+
 - TypeScript
 - React
 - TailwindCSS
-- FlyonUI
+- Shadcn
 - Iconify
 - Vite
 - Vite plugin QR code
