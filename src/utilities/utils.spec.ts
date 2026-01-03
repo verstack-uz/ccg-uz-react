@@ -34,6 +34,7 @@ describe("AppThemes", () => {
 describe("Preferences.setTheme()", () => {
   beforeEach(() => {
     localStorage.clear();
+    vi.restoreAllMocks();
   });
 
   it("should not throw error when setting valid theme", () => {
@@ -69,9 +70,12 @@ describe("Preferences.setTheme()", () => {
     }
   });
 
-  it("should invokle localStorage.setItem when setting theme", () => {
+  it("should invoke localStorage.setItem when setting theme", () => {
     const theme = DefaultAppTheme;
-    const setItemSpy = vi.spyOn(localStorage, localStorage.setItem.name);
+    // Set a spy on localStorage.setItem method. Note that Storage.prototype
+    // is used because localStorage is an instance of Storage, and we can't
+    // spy directly on localStorage in some environments.
+    const setItemSpy = vi.spyOn(Storage.prototype, "setItem");
     Preferences.setTheme(theme);
     expect(setItemSpy).toHaveBeenCalledWith(Preferences.Key.THEME, theme);
   });
@@ -87,10 +91,14 @@ describe("Preferences.setTheme()", () => {
 describe("Preferences.getTheme()", () => {
   beforeEach(() => {
     localStorage.clear();
+    vi.restoreAllMocks();
   });
 
-  it("should invokle localStorage.getItem when called", () => {
-    const getItemSpy = vi.spyOn(localStorage, localStorage.getItem.name);
+  it("should invoke localStorage.getItem when called", () => {
+    // Set a spy on localStorage.getItem method. Note that Storage.prototype
+    // is used because localStorage is an instance of Storage, and we can't
+    // spy directly on localStorage in some environments.
+    const getItemSpy = vi.spyOn(Storage.prototype, "getItem");
     Preferences.getTheme();
     expect(getItemSpy).toHaveBeenCalledWith(Preferences.Key.THEME);
   });

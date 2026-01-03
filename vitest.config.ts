@@ -2,7 +2,7 @@ import path from "path";
 
 import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
-import { playwright } from "@vitest/browser-playwright";
+// import { playwright } from "@vitest/browser-playwright";
 
 export default defineConfig({
   // Path aliases (same as vite.config.ts)
@@ -19,13 +19,16 @@ export default defineConfig({
   // React component testing in browsers
   plugins: [react()],
   test: {
-    browser: {
-      provider: playwright(),
-      enabled: true,
-      headless: true,
-      screenshotFailures: true,
-      // at least one instance is required
-      instances: [{ browser: "chromium" }],
-    },
+    // Great environment for debugging DOM-related code
+    environment: "jsdom",
+
+    // Browser-like end-to-end testing (uncomment to enable)
+    // browser: {
+    //   provider: playwright(),
+    //   enabled: true,
+    //   headless: false,
+    //   // screenshotFailures: true,
+    //   instances: [{ browser: "chromium" }],
+    // },
   },
 });

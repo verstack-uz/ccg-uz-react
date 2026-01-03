@@ -8,7 +8,8 @@
     "lint": "eslint . --ext .ts,.tsx",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:debug": "vitest --no-file-parallelism"
   },
   "dependencies": {
     "daisyui": "^5.1.26",
@@ -24,6 +25,7 @@
     "@fontsource-variable/inter": "^5.2.8",
     "@iconify/json": "^2.2.391",
     "@iconify/tailwind4": "^1.0.6",
+    "@playwright/test": "^1.57.0",
     "@tailwindcss/vite": "^4.1.14",
     "@testing-library/react": "^16.3.1",
     "@types/node": "^24.6.2",
@@ -32,6 +34,7 @@
     "@vitejs/plugin-react": "^5.0.4",
     "@vitest/browser-playwright": "^4.0.16",
     "eslint": "^9.39.2",
+    "jsdom": "^27.4.0",
     "prettier": "^3.6.2",
     "tailwindcss": "^4.1.14",
     "typescript": "^5.9.3",

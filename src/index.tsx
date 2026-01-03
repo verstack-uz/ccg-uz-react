@@ -5,7 +5,7 @@ import { createBrowserRouter } from "react-router";
 import { Observer } from "tailwindcss-intersect";
 import "flyonui/flyonui.js";
 
-import "@/styles/main.css";
+import "@/styles/index.css";
 import AppRoutes from "@/routes/AppRoutes";
 
 // Initialize intersection observer for tailwindcss-intersect (useful for
