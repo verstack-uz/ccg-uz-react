@@ -2,11 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router";
 
 import Header from "@components/elements/Header";
-import { Preferences } from "@utils/utils";
+import { Preferences } from "@/utilities/Preferences";
 import AppPaths from "@/routes/AppPaths";
 
 export default function HomePage() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div
@@ -19,7 +19,10 @@ export default function HomePage() {
           Welcome to Civil Construction Group (CCG)
         </h1>
 
-        <a className="btn btn-accent" onClick={() => navigate(AppPaths.COMPANY)}>
+        <a
+          className="btn btn-accent"
+          onClick={() => navigate(AppPaths.COMPANY)}
+        >
           Company
         </a>
       </div>

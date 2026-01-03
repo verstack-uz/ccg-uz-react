@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Outlet } from "react-router";
 
-import { Preferences } from "@/utilities/utils";
+import { Preferences } from "@/utilities/Preferences";
 
 export interface RootLayoutProps {
   pageTitle: string;

@@ -1,12 +1,6 @@
-/**
- * Header Component
- * Displays page title in a styled header format.
- */
-
-// third-party libraries
-import AppIcons from "@/styles/AppIcon";
 import AppPaths from "@/routes/AppPaths";
 import CircularIconButton from "@components/elements/CircularIconButton";
+import { IconNames } from "@components/elements/Icon";
 
 interface HeaderProps {
   title: string;
@@ -22,8 +16,8 @@ export default function Header({
       <h1 className="text-3xl flex-1">{title}</h1>
       {!hideSettingsButton && (
         <CircularIconButton
-          iconName={AppIcons.SETTINGS}
-          href={AppPaths.SETTINGS}
+          iconProps={{ iconName: IconNames.STAR }}
+          href={AppPaths.ROOT}
         />
       )}
     </div>

@@ -1,8 +1,3 @@
-/**
- * Button Component
- * This component renders a button that can function as a link or trigger an action when clicked.
- */
-
 interface ButtonProps {
   text: string;
   href?: string;
@@ -10,19 +5,16 @@ interface ButtonProps {
   className?: string;
 }
 
-export default function Button({
-  text,
-  href,
-  onClick,
-  className,
-}: ButtonProps) {
+export default function Button(props: ButtonProps) {
   return (
     <a
-      href={href}
-      onClick={onClick}
-      className={"btn btn-primary" + (className ? ` ${className}` : "")}
+      href={props.href}
+      onClick={props.onClick}
+      className={
+        "btn btn-primary" + (props.className ? ` ${props.className}` : "")
+      }
     >
-      {text}
+      {props.text}
     </a>
   );
 }

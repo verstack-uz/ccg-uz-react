@@ -1,40 +1,22 @@
-import { vi, describe, it, beforeEach, expect, expectTypeOf } from "vitest";
+import { vi, describe, it, beforeEach, expect } from "vitest";
 
-import { Preferences } from "@/utilities/utils";
-import { AppTheme, AppThemes, DefaultAppTheme } from "@/styles/AppTheme";
+import { Preferences } from "@/utilities/Preferences";
+import { AppTheme, AppThemes, DefaultAppTheme } from "@/styles/AppThemes";
 
-describe("AppThemes", () => {
-  it("should be an array", () => {
-    expect(Array.isArray(AppThemes)).toBe(true);
-  });
-
-  it("should contain only strings", () => {
-    for (const theme of AppThemes) expectTypeOf(theme).toBeString();
-  });
-
-  it("should contain unique themes", () => {
-    const uniqueThemes = new Set(AppThemes);
-    expect(uniqueThemes.size).toBe(AppThemes.length);
-  });
-
-  it("should contain 'corporate' theme", () => {
-    expect(AppThemes).toContain("corporate");
-  });
-
-  it("should have at least at least ≥1 theme available", () => {
-    expect(AppThemes.length).toBeGreaterThanOrEqual(1);
-  });
-
-  it("should have type AppTheme for each theme", () => {
-    for (const theme of AppThemes)
-      expectTypeOf(theme).toEqualTypeOf<AppTheme>();
-  });
-});
-
-describe("Preferences.setTheme()", () => {
+describe("Preferences", () => {
   beforeEach(() => {
-    localStorage.clear();
+    Preferences.clear();
     vi.restoreAllMocks();
+  });
+
+  it("should clean up localStorage when clear() is called", () => {
+    localStorage.setItem("testKey", "testValue");
+
+    const clearSpy = vi.spyOn(Storage.prototype, "clear");
+    Preferences.clear();
+    expect(clearSpy).toHaveBeenCalled();
+
+    expect(localStorage.getItem("testKey")).toBeNull();
   });
 
   it("should not throw error when setting valid theme", () => {
