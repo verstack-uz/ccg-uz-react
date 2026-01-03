@@ -1,18 +1,34 @@
-import { useRouteError } from "react-router";
+import { useRouteError, isRouteErrorResponse } from "react-router";
 
 import NotFoundPage from "@components/pages/error/NotFoundPage";
 import ServerErrorPage from "@components/pages/error/ServerErrorPage";
 
-export default function ErrorPage() {
-  // Get error information from react-router
-  let error = useRouteError();
-  let statusCode = (error as any)?.status || 500;
-  console.error(error);
+export default function ErrorBoundary() {
+  const error = useRouteError();
 
-  // Render error page based on status code (404 or 500)
-  if (statusCode === 404) {
-    return <NotFoundPage />; // bad URL
+  if (isRouteErrorResponse(error)) {
+    console.log(
+      "ErrorBoundary caught an error:",
+      error.status,
+      error.statusText,
+      error.data
+    );
+
+    if (error.status === 404) {
+      return <NotFoundPage />; // bad URL
+    } else {
+      return <ServerErrorPage />; // assume 500 error by default
+    }
+  } else if (error instanceof Error) {
+    return (
+      <div>
+        <h1>Error</h1>
+        <p>{error.message}</p>
+        <p>The stack trace is:</p>
+        <pre>{error.stack}</pre>
+      </div>
+    );
   } else {
-    return <ServerErrorPage />; // assume 500 error by default
+    return <h1>Unknown Error</h1>;
   }
 }

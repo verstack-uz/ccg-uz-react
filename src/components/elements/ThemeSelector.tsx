@@ -1,16 +1,6 @@
-/**
- * Theme Selector Component.
- * Component for selecting the application theme.
- * Allows users to choose from predefined themes and saves the selection in localStorage.
- * Uses FlyonUI framework themes.
- */
-
-// third-party libraries
 import React from "react";
 
-// local / internal stuff
-import { AppTheme, AppThemes } from "@/styles/AppTheme";
-import { StrUtils } from "@/utilities/utils";
+import { AppTheme, AppThemes } from "@/styles/AppThemes";
 
 interface ThemeSelectorProps {
   theme: AppTheme;
@@ -24,11 +14,12 @@ export default function ThemeSelector({ theme, setTheme }: ThemeSelectorProps) {
       <div className={"flex flex-row flex-wrap space-x-2 space-y-2"}>
         {AppThemes.map((_theme: AppTheme, idx: number) => (
           <input
-            className="btn btn-soft flex-1 min-w-24"
+            className={"btn btn-soft flex-1 min-w-24"}
+            data-theme={_theme}
             type="radio"
             key={`theme-selector-${idx}`}
             name="theme-selector-group"
-            aria-label={StrUtils.capitalizeFirstLetter(_theme)}
+            aria-label={_theme}
             defaultChecked={_theme === theme}
             onClick={() => {
               setTheme(_theme);

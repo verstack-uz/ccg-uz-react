@@ -1,9 +1,13 @@
+/**
+ * Routes for home page and its sub-pages.
+ */
+
 import { RouteObject } from "react-router";
 
 import AppPaths from "@/routes/AppPaths";
 import RootLayout from "@/components/layouts/RootLayout";
 import HomePage from "@/components/pages/HomePage";
-import ErrorPage from "@/components/pages/error/NotFoundPage";
+import ErrorBoundary from "@/components/pages/error/ErrorBoundary";
 
 const routes: RouteObject[] = [];
 
@@ -17,7 +21,7 @@ routes.push({
       element: <HomePage />,
     },
   ],
-  errorElement: <ErrorPage />,
+  errorElement: <ErrorBoundary />,
 });
 
 export { routes };

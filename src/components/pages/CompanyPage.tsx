@@ -1,13 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router";
 
-import Header from "@components/Header";
-import { Preferences } from "@/utilities/utils";
-import { AppRoute } from "@/routes/all";
+import Header from "@components/elements/Header";
+import { Preferences } from "@/utilities/Preferences";
+import AppPaths from "@routes/AppPaths";
 
 export default function CompanyPage() {
   // Prepare navigation hook
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   // Set page title
   const pageTitle = "CCG company";
@@ -27,7 +27,7 @@ export default function CompanyPage() {
           About Civil Construction Group (CCG)
         </h1>
 
-        <a className="btn btn-accent" onClick={() => navigate(AppRoute.HOME)}>
+        <a className="btn btn-accent" onClick={() => navigate(AppPaths.ROOT)}>
           Home
         </a>
       </div>
