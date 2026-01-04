@@ -1,7 +1,7 @@
 import { useRouteError, isRouteErrorResponse } from "react-router";
 
-import NotFoundPage from "@components/pages/error/NotFoundPage";
-import ServerErrorPage from "@components/pages/error/ServerErrorPage";
+import NotFoundPage from "@/components/pages/error/NotFoundPage";
+import ServerErrorPage from "@/components/pages/error/ServerErrorPage";
 
 export default function ErrorBoundary() {
   const error = useRouteError();
@@ -11,7 +11,7 @@ export default function ErrorBoundary() {
       "ErrorBoundary caught an error:",
       error.status,
       error.statusText,
-      error.data,
+      error.data
     );
 
     if (error.status === 404) {

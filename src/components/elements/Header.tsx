@@ -3,13 +3,21 @@ import { Sun, Languages, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 import AppPaths from "@/routes/AppPaths";
-
 import {
   NavigationMenu,
   NavigationMenuList,
   NavigationMenuItem,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,6 +29,12 @@ export default function Header() {
     { name: "Career", path: AppPaths.CAREER },
     { name: "Equipments", path: AppPaths.EQUIPMENTS },
     { name: "Contact", path: AppPaths.CONTACT },
+  ];
+  const languages = [
+    "O'zbekcha (Lotin)",
+    "Ўзбекча (Кирилл)",
+    "Русский",
+    "English",
   ];
 
   return (
@@ -48,7 +62,7 @@ export default function Header() {
           {/* Maximum possible space between home and navigation/action buttons */}
           <div className="flex-1"></div>
 
-          {/* Desktop Navigation Menu - Right Side */}
+          {/* Desktop navigation menu - right side */}
           <div className="hidden md:flex">
             <NavigationMenu>
               <NavigationMenuList>
@@ -66,49 +80,74 @@ export default function Header() {
           {/* Right side actions */}
           <div className="ml-8 flex items-center gap-4">
             {/* Dark/light mode toggle */}
-            <button>
-              <Sun className="h-5 w-5 text-white" />
-            </button>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" className="rounded-full p-2 text-white">
+                  <Sun />
+                </Button>
+              </DropdownMenuTrigger>
+
+              <DropdownMenuContent className="w-40 bg-[#404149] border-0 shadow-lg">
+                <DropdownMenuItem className="text-white">
+                  Light
+                </DropdownMenuItem>
+                <DropdownMenuItem className="text-white">Dark</DropdownMenuItem>
+                <DropdownMenuItem className="text-white">
+                  System
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
 
             {/* Language dropdown */}
-            <button className="inline-flex items-center justify-center">
-              <Languages className="h-5 w-5 text-white" />
-              <span className="ml-1 text-sm font-medium hidden sm:inline text-white">
-                UZ
-              </span>
-            </button>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" className="rounded-full p-2 text-white">
+                  <Languages className="w-8 h-8" />
+                </Button>
+              </DropdownMenuTrigger>
 
-            {/* Mobile hamburger menu button */}
-            <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden"
-            >
-              {isMenuOpen ? (
-                <X className="h-6 w-6 text-white" />
-              ) : (
-                <Menu className="h-6 w-6 text-white" />
-              )}
-            </button>
-          </div>
-        </div>
+              <DropdownMenuContent className="w-40 bg-[#404149] border-0 shadow-lg">
+                {languages.map((lang) => (
+                  <DropdownMenuItem key={lang} className="text-white">
+                    {lang}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
 
-        {/* Mobile menu (only visible on small screens) */}
-        {isMenuOpen && (
-          <div className="md:hidden">
-            <div className="container px-4 py-4 space-y-2 bg-[#404149]">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.path}
-                  to={link.path}
-                  className="block px-4 py-2 text-white"
-                  onClick={() => setIsMenuOpen(false)}
+            {/* Mobile hamburger button and menu (only visible on small screens) */}
+            <div className={"flex md:hidden"}>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    className="rounded-full p-2 text-white"
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  >
+                    {isMenuOpen ? <X /> : <Menu />}
+                  </Button>
+                </DropdownMenuTrigger>
+
+                <DropdownMenuContent
+                  className="w-40 bg-[#404149] border-0 shadow-lg py-1 md:hidden"
+                  sideOffset={10}
                 >
-                  {link.name}
-                </Link>
-              ))}
+                  {navLinks.map((link) => (
+                    <DropdownMenuItem key={link.path} className="text-white">
+                      <Link
+                        key={link.path}
+                        to={link.path}
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        {link.name}
+                      </Link>
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
             </div>
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );

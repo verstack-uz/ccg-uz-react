@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
 
-import AppPaths from "@routes/AppPaths";
+import AppPaths from "@/routes/AppPaths";
 
 export default function CompanyPage() {
   const navigate = useNavigate();
