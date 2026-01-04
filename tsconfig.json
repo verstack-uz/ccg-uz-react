@@ -6,10 +6,7 @@
     // Path aliases for cleaner imports
     "paths": {
       "@/*": ["./src/*"],
-      "@components/*": ["./src/components/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@routes/*": ["./src/routes/*"],
-      "@utils/*": ["./src/utilities/*"]
+      "@public/*": ["./public/*"]
     },
 
     // Output directory for compiled files

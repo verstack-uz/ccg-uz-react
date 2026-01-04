@@ -4,6 +4,7 @@ import { RouterProvider } from "react-router/dom";
 import { createBrowserRouter } from "react-router";
 import { ThemeProvider } from "@/components/theme-provider";
 
+import "@/i18n";
 import "@/styles/index.css";
 import AppRoutes from "@/routes/AppRoutes";
 
