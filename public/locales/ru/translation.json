@@ -1,0 +1,19 @@
+{
+  "CCG Logo": "CCG Логотип",
+  "Civil Construction Group": "Группа гражданского строительства",
+  "Dark": "Темный",
+  "header": {
+    "heroText": "Доверьтесь профессиональным специалистам мирового класса",
+    "heroSubText": "Думайте о безопасности. Работайте безопасно."
+  },
+  "Image of construction company employees working on site": "Изображение сотрудников строительной компании, работающих на площадке",
+  "Light": "Светлый",
+  "navbar": {
+    "career": "Карьера",
+    "company": "Компания",
+    "contact": "Контакты",
+    "equipments": "Техника",
+    "projects": "Проекты",
+    "services": "Наши услуги"
+  }
+}

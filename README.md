@@ -13,3 +13,10 @@
 - Jsdom
 - Eslint (typescript-eslint)
 - Prettier
+- i18next
+
+## Commands
+
+- `npm run test:coverage`
+- `npx i18next-cli status`
+- `npx i18next-cli extract`
