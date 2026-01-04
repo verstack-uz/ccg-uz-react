@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Sun, Languages, Menu, X } from "lucide-react";
+import { Sun, Languages, Menu, X, Moon } from "lucide-react";
 import { useState } from "react";
 
 import AppPaths from "@/routes/AppPaths";
@@ -14,13 +14,13 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useTheme } from "@/components/theme-provider";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   const navLinks = [
     { name: "Company", path: AppPaths.COMPANY },
@@ -78,22 +78,31 @@ export default function Header() {
           </div>
 
           {/* Right side actions */}
-          <div className="ml-8 flex items-center gap-4">
+          <div className="ml-8 flex items-center gap-2">
             {/* Dark/light mode toggle */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className="rounded-full p-2 text-white">
-                  <Sun />
+                <Button variant="ghost" className="rounded-full p-6 text-white">
+                  {theme === "dark" ? (
+                    <Moon className="size-6" />
+                  ) : (
+                    <Sun className="size-6" />
+                  )}
                 </Button>
               </DropdownMenuTrigger>
 
               <DropdownMenuContent className="w-40 bg-[#404149] border-0 shadow-lg">
-                <DropdownMenuItem className="text-white">
+                <DropdownMenuItem
+                  className="text-white"
+                  onClick={() => setTheme("light")}
+                >
                   Light
                 </DropdownMenuItem>
-                <DropdownMenuItem className="text-white">Dark</DropdownMenuItem>
-                <DropdownMenuItem className="text-white">
-                  System
+                <DropdownMenuItem
+                  className="text-white"
+                  onClick={() => setTheme("dark")}
+                >
+                  Dark
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -101,8 +110,8 @@ export default function Header() {
             {/* Language dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className="rounded-full p-2 text-white">
-                  <Languages className="w-8 h-8" />
+                <Button variant="ghost" className="rounded-full p-6 text-white">
+                  <Languages className="size-6" />
                 </Button>
               </DropdownMenuTrigger>
 
@@ -121,10 +130,14 @@ export default function Header() {
                 <DropdownMenuTrigger asChild>
                   <Button
                     variant="ghost"
-                    className="rounded-full p-2 text-white"
+                    className="rounded-full p-6 text-white"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
-                    {isMenuOpen ? <X /> : <Menu />}
+                    {isMenuOpen ? (
+                      <X className="size-6" />
+                    ) : (
+                      <Menu className="size-6" />
+                    )}
                   </Button>
                 </DropdownMenuTrigger>
 
