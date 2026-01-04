@@ -9,6 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { changeLanguage } from "i18next";
 import { languages } from "@/i18n";
+import i18n from "@/i18n";
 
 export default function LanguageSelector() {
   return (
@@ -22,11 +23,13 @@ export default function LanguageSelector() {
       <DropdownMenuContent className="w-40 bg-[#404149] border-0 shadow-lg">
         {Object.entries(languages).map(([languageCode, { languageName }]) => (
           <DropdownMenuItem
+            disabled={i18n.language === languageCode}
             key={languageCode}
-            className="text-white cursor-pointer"
+            className="text-white cursor-pointer font-normal tracking-wide"
             onClick={() => changeLanguage(languageCode)}
           >
-            {languageName}
+            {i18n.language === languageCode ? "✓ " : ""}
+            {languageName.toUpperCase()}
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>

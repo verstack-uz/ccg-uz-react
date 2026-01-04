@@ -6,6 +6,7 @@ import ThemeToggle from "@/components/elements/ThemeToggle";
 import LanguageSelector from "@/components/elements/LanguageSelector";
 import HamburgerMenu from "@/components/elements/HamburgerMenu";
 import Navbar from "@/components/elements/Navbar";
+import { TypographyH1 } from "@/components/elements/Typography";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -35,6 +36,7 @@ export default function Header() {
 
       {/* Navigation bar */}
       <nav className="absolute top-0 left-0 right-0">
+        {/* Navigation bar */}
         <div className="flex mt-6 mb-4 h-16 items-center px-4 md:px-16">
           {/* Site logo - home button */}
           <Link to={AppPaths.ROOT}>
@@ -57,6 +59,11 @@ export default function Header() {
 
           {/* Hamburger menu for mobile */}
           <HamburgerMenu navLinks={navLinks} />
+        </div>
+
+        {/* Hero text */}
+        <div className="text-center text-white">
+          <TypographyH1 text={t("header.heroText").toUpperCase()} />
         </div>
       </nav>
     </header>

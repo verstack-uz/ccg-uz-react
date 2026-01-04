@@ -41,11 +41,12 @@ export default function HamburgerMenu(props: HamburgerMenuProps) {
           {props.navLinks.map((link) => (
             <DropdownMenuItem key={link.path} className="text-white">
               <Link
+                className="font-normal tracking-wide"
                 key={link.path}
                 to={link.path}
                 onClick={() => setIsMenuOpen(false)}
               >
-                {link.name}
+                {link.name.toUpperCase()}
               </Link>
             </DropdownMenuItem>
           ))}

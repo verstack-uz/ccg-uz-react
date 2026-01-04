@@ -19,7 +19,9 @@ export default function Navbar(props: NavbarProps) {
           {props.navLinks.map((link) => (
             <NavigationMenuItem key={link.path}>
               <NavigationMenuLink asChild className="text-white text-md">
-                <Link to={link.path}>{link.name.toUpperCase()}</Link>
+                <Link className="font-normal tracking-wide" to={link.path}>
+                  {link.name.toUpperCase()}
+                </Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
           ))}

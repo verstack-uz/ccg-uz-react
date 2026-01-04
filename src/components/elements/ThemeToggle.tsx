@@ -1,4 +1,5 @@
 import { Sun, Moon } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import {
   DropdownMenu,
@@ -11,6 +12,7 @@ import { useTheme } from "@/components/theme-provider";
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();
+  const { t } = useTranslation();
 
   return (
     <DropdownMenu>
@@ -26,16 +28,20 @@ export default function ThemeToggle() {
 
       <DropdownMenuContent className="w-40 bg-[#404149] border-0 shadow-lg">
         <DropdownMenuItem
-          className="text-white"
+          disabled={theme === "light"}
+          className="text-white font-normal tracking-wide"
           onClick={() => setTheme("light")}
         >
-          Light
+          {theme === "light" ? "✓ " : ""}
+          {t("Light").toUpperCase()}
         </DropdownMenuItem>
         <DropdownMenuItem
-          className="text-white"
+          disabled={theme === "dark"}
+          className="text-white font-normal tracking-wide"
           onClick={() => setTheme("dark")}
         >
-          Dark
+          {theme === "dark" ? "✓ " : ""}
+          {t("Dark").toUpperCase()}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
