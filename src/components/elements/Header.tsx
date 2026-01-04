@@ -8,7 +8,6 @@ import HamburgerMenu from "@/components/elements/HamburgerMenu";
 import Navbar from "@/components/elements/Navbar";
 import {
   TypographyH1,
-  TypographyH4,
   TypographyLarge,
 } from "@/components/elements/Typography";
 
