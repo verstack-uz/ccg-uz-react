@@ -6,7 +6,11 @@ import ThemeToggle from "@/components/elements/ThemeToggle";
 import LanguageSelector from "@/components/elements/LanguageSelector";
 import HamburgerMenu from "@/components/elements/HamburgerMenu";
 import Navbar from "@/components/elements/Navbar";
-import { TypographyH1 } from "@/components/elements/Typography";
+import {
+  TypographyH1,
+  TypographyH4,
+  TypographyLarge,
+} from "@/components/elements/Typography";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -62,8 +66,9 @@ export default function Header() {
         </div>
 
         {/* Hero text */}
-        <div className="text-center text-white">
+        <div className="mt-6 md:mt-16 flex flex-col space-y-4 text-white w-full text-center">
           <TypographyH1 text={t("header.heroText").toUpperCase()} />
+          <TypographyLarge text={t("header.heroSubText").toUpperCase()} />
         </div>
       </nav>
     </header>

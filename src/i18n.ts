@@ -19,7 +19,7 @@ i18n
   .init({
     fallbackLng: "uz-latin",
     backend: {
-      loadPath: "/locales/{{lng}}/translations.json",
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
     },
     detection: {
       order: ["localStorage", "navigator"],

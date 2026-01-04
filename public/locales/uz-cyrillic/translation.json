@@ -1,7 +1,13 @@
 {
   "CCG Logo": "CCG Логотипи",
   "Civil Construction Group": "Civil Construction Group",
+  "Dark": "Қоронғи",
+  "header": {
+    "heroText": "Ҳалқаро даражадаги профeссионал мутахассисларга ишонинг",
+    "heroSubText": "Хавфсизлик ҳақида ўйланг. Хавфсиз ишланг."
+  },
   "Image of construction company employees working on site": "Қурилиш компанияси ходимларининг қурилиш майдонида ишлаётган тасвири",
+  "Light": "Ёруғ",
   "navbar": {
     "career": "Карьера",
     "company": "Компания",
