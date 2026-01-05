@@ -34,9 +34,9 @@ export default function Header() {
       </div>
 
       {/* Navigation bar */}
-      <nav className="absolute pt-2 inset-0 flex flex-col">
+      <nav className="absolute mt-2.5 inset-0 flex flex-col">
         {/* Navigation bar */}
-        <div className="flex p-2 h-16 items-center">
+        <div className="container mx-auto flex p-2 h-16 items-center">
           {/* Site logo - home button */}
           <Link to={AppPaths.ROOT}>
             <img
@@ -61,7 +61,7 @@ export default function Header() {
         </div>
 
         {/* Hero text */}
-        <div className="px-2 flex flex-col flex-1 justify-center space-y-3 md:space-y-4.5 text-white">
+        <div className="px-2 md:pb-16 flex flex-col flex-1 justify-center space-y-3 md:space-y-4.5 text-white">
           <h1 className={"text-3xl md:text-4xl text-center tracking-normal"}>
             {t("header.heroText").toUpperCase()}
           </h1>

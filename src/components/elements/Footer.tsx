@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer
       className={
-        "h-16 border-t-black dark:border-t-white border-t flex items-center"
+        "mt-16 h-16 border-[#404149] dark:border-t-white border-t flex items-center"
       }
     >
       <div className={"flex flex-row gap-x-1 w-full justify-center"}>
