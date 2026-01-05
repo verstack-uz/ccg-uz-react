@@ -6,10 +6,6 @@ import ThemeToggle from "@/components/elements/ThemeToggle";
 import LanguageSelector from "@/components/elements/LanguageSelector";
 import HamburgerMenu from "@/components/elements/HamburgerMenu";
 import Navbar from "@/components/elements/Navbar";
-import {
-  TypographyH1,
-  TypographyLarge,
-} from "@/components/elements/Typography";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -38,9 +34,9 @@ export default function Header() {
       </div>
 
       {/* Navigation bar */}
-      <nav className="absolute top-0 left-0 right-0">
+      <nav className="absolute pt-2 inset-0 flex flex-col">
         {/* Navigation bar */}
-        <div className="flex mt-6 mb-4 h-16 items-center px-4 md:px-16">
+        <div className="flex p-2 h-16 items-center">
           {/* Site logo - home button */}
           <Link to={AppPaths.ROOT}>
             <img
@@ -65,9 +61,17 @@ export default function Header() {
         </div>
 
         {/* Hero text */}
-        <div className="mt-6 md:mt-16 flex flex-col space-y-4 text-white w-full text-center">
-          <TypographyH1 text={t("header.heroText").toUpperCase()} />
-          <TypographyLarge text={t("header.heroSubText").toUpperCase()} />
+        <div className="px-2 flex flex-col flex-1 justify-center space-y-3 md:space-y-4.5 text-white">
+          <h1 className={"text-3xl md:text-4xl text-center tracking-normal"}>
+            {t("header.heroText").toUpperCase()}
+          </h1>
+          <h4
+            className={
+              "text-lg md:text-xl text-center font-light tracking-normal"
+            }
+          >
+            {t("header.heroSubText").toUpperCase()}
+          </h4>
         </div>
       </nav>
     </header>

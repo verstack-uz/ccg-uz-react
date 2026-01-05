@@ -8,7 +8,6 @@ import "@/i18n";
 import "@/styles/index.css";
 import AppRoutes from "@/routes/AppRoutes";
 
-// Render the SPA
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 root.render(
