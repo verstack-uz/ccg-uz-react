@@ -71,7 +71,7 @@ export default function Statistics() {
   return (
     <div
       className={
-        "container mx-auto flex flex-row items-center justify-center flex-wrap -translate-y-8 md:-translate-y-16"
+        "container mx-auto flex flex-row items-center justify-center flex-wrap md:-translate-y-16"
       }
     >
       {statistics.map((prop) => (
