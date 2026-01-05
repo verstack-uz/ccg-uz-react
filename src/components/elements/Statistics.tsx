@@ -61,7 +61,7 @@ export default function Statistics() {
       plusSign: true,
     },
     {
-      value: 5,
+      value: 40,
       label: t("Equipments"),
       svgPath: "/images/statistics/5-equipments.svg",
       plusSign: true,

@@ -1,10 +1,15 @@
 {
   "CCG Logo": "CCG Logo",
   "Civil Construction Group": "Civil Construction Group",
+  "Completed projects": "Completed projects",
+  "Current projects": "Current projects",
   "Dark": "Dark",
+  "Employees": "Employees",
+  "Equipments": "Equipments",
+  "Go to homepage": "Go to homepage",
   "header": {
-    "heroText": "Trust professional world class specialists",
-    "heroSubText": "Think safety. Work safely."
+    "heroSubText": "Think safety. Work safely.",
+    "heroText": "Trust professional world class specialists"
   },
   "Image of construction company employees working on site": "Image of construction company employees working on site",
   "Light": "Light",
@@ -15,5 +20,6 @@
     "equipments": "Equipments",
     "projects": "Projects",
     "services": "What we do"
-  }
+  },
+  "Service offer": "Service offer"
 }
