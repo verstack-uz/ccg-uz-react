@@ -11,6 +11,9 @@ export const languages = {
 } as const;
 
 export type LanguageCode = keyof typeof languages;
+export const languageCodes: Array<LanguageCode> = Object.keys(
+  languages
+) as Array<LanguageCode>;
 
 i18n
   .use(Backend) // loads translations from /public/locales

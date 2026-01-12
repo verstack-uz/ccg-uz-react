@@ -15,5 +15,5 @@ root.render(
     <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
       <RouterProvider router={createBrowserRouter(AppRoutes)} />
     </ThemeProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

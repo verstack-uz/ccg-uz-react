@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "uz-latin": "500 MVt quvvatli quyosh fotoelektr stansiyasi maydonini tekislash va rejalashtirish ishlari (Samarqand)",
+      "uz-cyrillic": "500 МВт қувватли қуёш фотоэлектр станцияси майдонини текислаш ва режалаштириш ишлари (Самарқанд)",
+      "ru": "Планировка и выравнивание площадки солнечной электростанции мощностью 500 МВт в Самарканде",
+      "en": "Leveling and grading of a (500 MW) photovoltaic site and construction of access and internal roads in Samarkand"
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "uz-latin": "Bekobod Kiyik Bog'ida restoran, veterinariya, va kafe qurilish ishlari",
+      "uz-cyrillic": "Бекобод Кийик Боғида ресторан, ветеринария, ва кафе қурилиш ишлари",
+      "ru": "Строительство ресторана, ветеринарной клиники, и кафе в Бекободском Оленином Парке",
+      "en": "Construction of restaurant, veterinary clinic, and cafe in the Bekobod Deer Park"
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "uz-latin": "Yashnobod tumani, Mahtumquli ko`chasidagi savdo biznes markazida qurilish ishlari",
+      "uz-cyrillic": "Яшнобод тумани, Маҳтумқули кўчасидаги савдо бизнес марказида қурилиш ишлари",
+      "ru": "Строительные работы в торговом бизнес центре на улице Махтумкули Яшнабадского района",
+      "en": "Construction works at the Trade Business Center in Makhtumkuli street, Yashnobod district"
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "uz-latin": "Toshkent viloyatida 500 MWh energiya saqlash loyihasining ikkinchi bosqichi uchun kirish yo'li qurilish ishlari",
+      "uz-cyrillic": "Тошкент вилоятида 500 МВт·с энергия сақлаш лойиҳасининг иккинчи босқичи учун кириш йўли қурилиш ишлари",
+      "ru": "Инженерные работы по подъездной дороге для второй фазы проекта хранения энергии на 500 МВт·ч Ташкентской области",
+      "en": "Access road engineering for the second phase of the 500MWh energy storage project in Tashkent region"
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "uz-latin": "\"Acwa Power\" Sirdaryo Shirin 1500 MW CCGT Loyihasi",
+      "uz-cyrillic": "\"Acwa Power\" Сирдарё Ширин 1500 МВт CCGT Лойиҳаси",
+      "ru": "Проект \"Acwa Power\" Sirdaryo Shirin 1500 МВт CCGT",
+      "en": "\"Acwa Power\" Sirdarya Shirin 1500 MW CCGT Project"
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "uz-latin": "\"500 MVt BESS\" loyihasi uchun poydevorlar va ma'muriy binoni qurish",
+      "uz-cyrillic": "\"500 МВт БEСС\" лойиҳаси учун пойдеворлар ва маъмурий бинони қуриш",
+      "ru": "Строительство фундаментов и административного здания проекта \"500 МВт BESS\"",
+      "en": "Construction of foundations and administration building of \"500 MW BESS\" project"
+    }
+  },
+  {
+    "id": 7,
+    "title": {
+      "uz-latin": "Muborak tumanida oltingugurtdan granula ishlab chiqarish zavodi qurilishi",
+      "uz-cyrillic": "Муборак туманида олтингугуртдан гранула ишлаб чиқариш заводи қурилиши",
+      "ru": "Строительство завода по гранулированию серы на Мубарекском районе",
+      "en": "Construction of sulphur granulation plant in Mubarek district"
+    }
+  }
+]
