@@ -10,6 +10,7 @@ import {
 import Projects from "@/lib/data/projects";
 import i18, { LanguageCode } from "@/i18n";
 import AppPaths from "@/routes/AppPaths";
+import { LazyImage } from "@/components/lazy-image";
 
 export default function ProjectsCarousel() {
   const projects = Projects.getInstance();
@@ -38,10 +39,13 @@ export default function ProjectsCarousel() {
               onClick={() => navigate(`${AppPaths.PROJECTS}/${project.id}`)}
             >
               <CardContent className="p-0">
-                <img
+                <LazyImage
                   src={project.imageUrls[0]}
                   alt={`Project ${project.id} Image`}
-                  className={"object-cover w-full h-64"}
+                  className={"object-cover w-full h-full"}
+                  ratio={16 / 9}
+                  inView={true}
+                  fallback="https://placehold.co/160x90/"
                 />
                 <div className={"h-24 p-2 flex items-center justify-center"}>
                   <span className={"text-xl text-center line-clamp-3"}>
