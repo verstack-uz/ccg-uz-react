@@ -42,6 +42,7 @@ export default function Header() {
             <img
               src="/icons/ccg-logo-transparent.svg"
               alt={t("CCG Logo")}
+              aria-label={t("Go to homepage")}
               className="p-1 h-10"
             />
           </Link>

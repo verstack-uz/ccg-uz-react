@@ -20,7 +20,7 @@ export default function LanguageSelector() {
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent className="w-40 bg-[#404149] border-0 shadow-lg">
+      <DropdownMenuContent className="w-40 bg-[#404149] border border-gray-500">
         {Object.entries(languages).map(([languageCode, { languageName }]) => (
           <DropdownMenuItem
             disabled={i18n.language === languageCode}

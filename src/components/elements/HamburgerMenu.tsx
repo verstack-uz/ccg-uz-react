@@ -23,7 +23,7 @@ export default function HamburgerMenu(props: HamburgerMenuProps) {
         <DropdownMenuTrigger asChild>
           <Button
             variant="ghost"
-            className="rounded-full p-6 text-white"
+            className={"rounded-full p-6 text-white"}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
@@ -35,7 +35,7 @@ export default function HamburgerMenu(props: HamburgerMenuProps) {
         </DropdownMenuTrigger>
 
         <DropdownMenuContent
-          className="w-40 bg-[#404149] border-0 shadow-lg py-1 md:hidden"
+          className="md:hidden w-40 py-1 bg-[#404149] border border-gray-500"
           sideOffset={10}
         >
           {props.navLinks.map((link) => (
