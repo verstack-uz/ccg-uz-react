@@ -38,7 +38,7 @@ describe("Projects class - Singleton", () => {
   it("should throw error if projects.json is empty", async () => {
     for (const testCase of [undefined, null, [], {}]) {
       vi.doMock("@/lib/data/projects.json", () => ({
-        default: [],
+        default: testCase,
       }));
 
       // This dynamic import reloads projects.json mock above

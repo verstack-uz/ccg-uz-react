@@ -38,9 +38,8 @@ export default function HamburgerMenu(props: HamburgerMenuProps) {
           className="md:hidden w-40 py-1 bg-[#404149] border border-gray-500"
           sideOffset={10}
         >
-          {props.navLinks.map((link, index) => (
+          {props.navLinks.map((link) => (
             <DropdownMenuItem key={link.path} className="text-white">
-              {/* {index > 0 && <DropdownMenuSeparator />} */}
               <Link
                 className="font-normal tracking-wide"
                 key={link.path}

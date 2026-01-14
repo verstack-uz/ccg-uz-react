@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 import { languageCodes } from "@/i18n";
 import { Project } from "@/lib/types/Project";
 import projectsJson from "@/lib/data/projects.json";
