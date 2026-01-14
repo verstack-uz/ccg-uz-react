@@ -1,6 +1,13 @@
-import { languageCodes, LanguageCode, languages } from "@/i18n";
-import projectsList from "@public/projects/projects.json";
+import fetch from "node-fetch";
 
+import { languageCodes } from "@/i18n";
+import { Project } from "@/lib/types/Project";
+import projectsJson from "@/lib/data/projects.json";
+
+// cast json to Project
+const projectsList: Project[] = projectsJson as Project[];
+
+// Singleton class to manage projects
 export default class Projects {
   private static instance: Projects; // Singleton instance
 
@@ -26,7 +33,7 @@ export default class Projects {
 
     // Verify each project entry
     for (const project of projectsList) {
-      for (const field of ["id", "title"]) {
+      for (const field of ["id", "title", "imageUrls"]) {
         if (!(field in project)) {
           throw new Error(`Project entry is missing required field: ${field}`);
         }
@@ -45,5 +52,13 @@ export default class Projects {
         }
       }
     }
+  }
+
+  public get length(): number {
+    return projectsList.length;
+  }
+
+  public map<T>(callback: (project: Project, index: number) => T): T[] {
+    return projectsList.map(callback);
   }
 }
