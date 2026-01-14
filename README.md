@@ -6,14 +6,14 @@
 ## Technologies used:
 
 - TypeScript
-- React
-- Shadcn (and Tailwind CSS, of course)
-- Vite (with a QR code plugin)
-- Vitest
-- Jsdom
-- Eslint (typescript-eslint)
-- Prettier
 - i18next
+- React
+- Shadcn + Magic UI + Kibo UI + 
+- Vite (with a QR code plugin)
+- Vitest + jsdom
+- Eslint + typescript-eslint + prettier
+- Github Actions (CI)
+- Netlify (CD)
 
 ## Commands
 

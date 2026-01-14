@@ -9,7 +9,8 @@
 import { RouteObject } from "react-router-dom";
 
 import { routes as homeRoutes } from "@/routes/home";
+import { routes as projectRoutes } from "@/routes/projects";
 
-const AppRoutes: RouteObject[] = [...homeRoutes];
+const AppRoutes: RouteObject[] = [...homeRoutes, ...projectRoutes];
 
 export default AppRoutes;
