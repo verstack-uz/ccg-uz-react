@@ -56,6 +56,10 @@ export default class Projects {
     return projectsList.length;
   }
 
+  public get(projectId: number): Project | undefined {
+    return projectsList.find((project) => project.id === projectId);
+  }
+
   public map<T>(callback: (project: Project, index: number) => T): T[] {
     return projectsList.map(callback);
   }

@@ -7,7 +7,13 @@ import LanguageSelector from "@/components/elements/LanguageSelector";
 import HamburgerMenu from "@/components/elements/HamburgerMenu";
 import Navbar from "@/components/elements/Navbar";
 
-export default function Header() {
+interface HeaderProps {
+  title?: string;
+  subTitle?: string;
+  bgImageUrl?: string;
+}
+
+export default function Header(props: HeaderProps) {
   const { t } = useTranslation();
 
   const navLinks = [
@@ -20,16 +26,18 @@ export default function Header() {
   ];
 
   return (
-    <header className="relative h-80 md:h-96">
+    <header className={`relative h-80 md:h-96`}>
       {/* Background image */}
       <div className={"absolute inset-0 overflow-hidden"}>
         <img
-          src="images/header-bg.jpg"
+          src={props.bgImageUrl ? props.bgImageUrl : "images/header-bg.jpg"}
           alt={t("Image of construction company employees working on site")}
-          className="w-full h-full object-cover dark:opacity-60"
+          className="w-full h-full object-cover"
         />
         <div
-          className={"absolute inset-0 opacity-60 dark:opacity-40 bg-[#404149]"}
+          className={
+            "absolute inset-0 opacity-60 bg-[#404149] dark:bg-[#202129]"
+          }
         ></div>
       </div>
 
@@ -62,18 +70,26 @@ export default function Header() {
         </div>
 
         {/* Hero text */}
-        <div className="px-2 md:pb-16 flex flex-col flex-1 justify-center space-y-3 md:space-y-4.5 text-white">
-          <h1 className={"text-3xl md:text-4xl text-center tracking-normal"}>
-            {t("header.heroText").toUpperCase()}
-          </h1>
-          <h4
-            className={
-              "text-lg md:text-xl text-center font-light tracking-normal"
-            }
-          >
-            {t("header.heroSubText").toUpperCase()}
-          </h4>
-        </div>
+        {(props.title || props.subTitle) && (
+          <div className="px-2 flex flex-col flex-1 justify-center space-y-3 md:space-y-4.5 text-white">
+            {props.title && (
+              <h1
+                className={"text-3xl md:text-4xl text-center tracking-normal"}
+              >
+                {props.title.toUpperCase()}
+              </h1>
+            )}
+            {props.subTitle && (
+              <h4
+                className={
+                  "text-lg md:text-xl text-center font-light tracking-normal"
+                }
+              >
+                {props.subTitle.toUpperCase()}
+              </h4>
+            )}
+          </div>
+        )}
       </nav>
     </header>
   );
