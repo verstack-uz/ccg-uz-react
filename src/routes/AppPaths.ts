@@ -6,8 +6,8 @@
 
 const AppPath = {
   ROOT: "/",
-  COMPANY: "/company",
   PROJECTS: "/projects",
+  COMPANY: "/company",
   WHAT_WE_DO: "/what-we-do",
   CAREER: "/career",
   EQUIPMENTS: "/equipments",
