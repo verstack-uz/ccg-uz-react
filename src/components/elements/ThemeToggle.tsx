@@ -26,7 +26,9 @@ export default function ThemeToggle() {
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent className="w-40 bg-[#404149] border-0 shadow-lg">
+      <DropdownMenuContent
+        className={"w-40 bg-[#404149] border border-gray-500"}
+      >
         <DropdownMenuItem
           disabled={theme === "light"}
           className="text-white font-normal tracking-wide"

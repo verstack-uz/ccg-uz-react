@@ -74,8 +74,8 @@ export default function Statistics() {
         "container mx-auto flex flex-row items-center justify-center flex-wrap md:-translate-y-16"
       }
     >
-      {statistics.map((prop) => (
-        <Statistic {...prop} />
+      {statistics.map((prop, index) => (
+        <Statistic {...prop} key={`stat-${index}`} />
       ))}
     </div>
   );

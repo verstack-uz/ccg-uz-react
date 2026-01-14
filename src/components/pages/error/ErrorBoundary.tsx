@@ -22,16 +22,16 @@ export default function ErrorBoundary() {
   } else if (error instanceof Error) {
     return (
       <div>
-        <h1>Error</h1>
-        <p>{error.message}</p>
-        <p>The stack trace is:</p>
-        <pre>{error.stack}</pre>
+        <h1 className={"text-red-600 text-3xl"}>Bug:</h1>
+        <p className={"mt-4 text-xl"}>{error.message}</p>
+        <pre className={"mt-4"}>{error.stack}</pre>
       </div>
     );
   } else {
     return (
       <div>
-        <h1>Unknown Error</h1>
+        <h1 className={"text-red-600 text-3xl"}>Unknown error</h1>
+        <p className={"mt-4 text-xl"}>No idea ¯\_(ツ)_/¯</p>
       </div>
     );
   }
