@@ -2,9 +2,11 @@
   "CCG Logo": "CCG Logo",
   "Civil Construction Group": "Civil Construction Group",
   "Completed projects": "Completed projects",
+  "Construction": "Construction",
+  "Contact": "Contact",
   "Current projects": "Current projects",
-  "Dark": "Dark",
   "Employees": "Employees",
+  "Engineering": "Engineering",
   "Equipments": "Equipments",
   "Go to homepage": "Go to homepage",
   "header": {
@@ -12,7 +14,7 @@
     "heroText": "Trust professional world class specialists"
   },
   "Image of construction company employees working on site": "Image of construction company employees working on site",
-  "Light": "Light",
+  "Let's build together": "Let's build together",
   "navbar": {
     "career": "Career",
     "company": "Company",
@@ -22,6 +24,10 @@
     "services": "What we do"
   },
   "Other projects": "Other projects",
+  "Procurement": "Procurement",
+  "Project photo": "Project photo",
   "Project photos": "Project photos",
-  "Service offer": "Service offer"
+  "Service offer": "Service offer",
+  "Start your construction project today!": "Start your construction project today!",
+  "Xizmatlar": "Services"
 }
