@@ -39,7 +39,16 @@ const customDetector: LanguageDetectorModule = {
       return "uz-latin";
     }
 
-    return detected;
+    // Only return detected language if it's one of our supported languages
+    if (
+      typeof detected === "string" &&
+      languageCodes.includes(detected as LanguageCode)
+    ) {
+      return detected;
+    }
+
+    // Return undefined to use fallbackLng
+    return undefined;
   },
   cacheUserLanguage(lng: string) {
     localStorage.setItem("i18nextLng", lng);
