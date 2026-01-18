@@ -15,26 +15,46 @@ export const languageCodes: Array<LanguageCode> = Object.keys(
   languages,
 ) as Array<LanguageCode>;
 
+// Custom language detector plugin to convert "uz" to "uz-latin"
+const customDetector = {
+  name: "customUzbekDetector",
+  lookup() {
+    const detector = new LanguageDetector();
+    detector.init({
+      order: ["localStorage", "navigator"],
+      caches: ["localStorage"],
+    });
+
+    let detected = detector.detect();
+    if (Array.isArray(detected)) {
+      detected = detected[0];
+    }
+
+    // Convert "uz" or "uz-*" without explicit variant to "uz-latin"
+    if (
+      typeof detected === "string" &&
+      detected.startsWith("uz") &&
+      !detected.match(/uz-(latin|cyrillic)/)
+    ) {
+      return "uz-latin";
+    }
+
+    return detected;
+  },
+  cacheUserLanguage(lng: string) {
+    localStorage.setItem("i18nextLng", lng);
+  },
+};
+
 i18n
   .use(Backend) // loads translations from /public/locales
-  .use(LanguageDetector) // detects user language
+  .use({ type: "languageDetector", ...customDetector } as any) // custom detector
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     fallbackLng: "uz-latin",
+    supportedLngs: languageCodes,
     backend: {
       loadPath: "/locales/{{lng}}/{{ns}}.json",
-    },
-    detection: {
-      order: ["localStorage", "navigator"],
-      caches: ["localStorage"],
-      lookupLocalStorage: "i18nextLng",
-      convertDetectedLanguage: (lng) => {
-        // Map generic "uz" to "uz-latin" as default
-        if (lng.startsWith("uz") && !lng.includes("-")) {
-          return "uz-latin";
-        }
-        return lng;
-      },
     },
   });
 
