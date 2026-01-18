@@ -27,6 +27,14 @@ i18n
     detection: {
       order: ["localStorage", "navigator"],
       caches: ["localStorage"],
+      lookupLocalStorage: "i18nextLng",
+      convertDetectedLanguage: (lng) => {
+        // Map generic "uz" to "uz-latin" as default
+        if (lng.startsWith("uz") && !lng.includes("-")) {
+          return "uz-latin";
+        }
+        return lng;
+      },
     },
   });
 
