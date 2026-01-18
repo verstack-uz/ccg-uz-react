@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import AppPaths from "@/routes/AppPaths";
-import ThemeToggle from "@/components/elements/ThemeToggle";
+import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import LanguageSelector from "@/components/elements/LanguageSelector";
 import HamburgerMenu from "@/components/elements/HamburgerMenu";
 import Navbar from "@/components/elements/Navbar";
@@ -61,7 +61,8 @@ export default function Header(props: HeaderProps) {
           {/* Navbar for desktop */}
           <Navbar navLinks={navLinks} />
 
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
+          <AnimatedThemeToggler />
 
           <LanguageSelector />
 

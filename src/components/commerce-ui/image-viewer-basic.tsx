@@ -30,7 +30,6 @@ interface ImageViewerProps {
 }
 
 const ImageViewer_Basic = ({
-  className,
   classNameImageViewer,
   classNameThumbnailViewer,
   imageTitle,
