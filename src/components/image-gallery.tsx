@@ -10,7 +10,7 @@ export function ImageGallery(props: ImageGalleryProps) {
   // Distribute images across columns
   const columns: { src: string; alt: string }[][] = Array.from(
     { length: numColumns },
-    () => []
+    () => [],
   );
 
   props.images?.forEach((image, index) => {
@@ -31,6 +31,7 @@ export function ImageGallery(props: ImageGalleryProps) {
                 ratio={1}
                 src={image.src}
                 key={`${columnIndex}-${imageIndex}`}
+                zoom={true}
               />
             ))}
           </div>

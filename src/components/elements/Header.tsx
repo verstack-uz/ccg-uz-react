@@ -30,7 +30,7 @@ export default function Header(props: HeaderProps) {
       {/* Background image */}
       <div className={"absolute inset-0 overflow-hidden"}>
         <img
-          src={props.bgImageUrl ? props.bgImageUrl : "images/header-bg.jpg"}
+          src={props.bgImageUrl ? props.bgImageUrl : "images/header-bg.jpeg"}
           alt={t("Image of construction company employees working on site")}
           className="w-full h-full object-cover"
         />

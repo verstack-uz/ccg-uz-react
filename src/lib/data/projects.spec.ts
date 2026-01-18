@@ -19,7 +19,7 @@ describe("Projects class - Singleton", () => {
               acc[code] = `Title in ${code}`;
               return acc;
             },
-            {} as Record<LanguageCode, string>
+            {} as Record<LanguageCode, string>,
           ),
           imageUrls: ["image1.png"],
         } as Project,
@@ -64,7 +64,7 @@ describe("Projects class - Singleton", () => {
             acc[code] = `Title in ${code}`;
             return acc;
           },
-          {} as Record<LanguageCode, string>
+          {} as Record<LanguageCode, string>,
         ),
         imageUrls: ["image1.png"],
       },
@@ -81,7 +81,7 @@ describe("Projects class - Singleton", () => {
             acc[code] = index === 0 ? "   " : `Title in ${code}`;
             return acc;
           },
-          {} as Record<LanguageCode, string>
+          {} as Record<LanguageCode, string>,
         ),
         imageUrls: ["image1.png"],
       },
@@ -94,7 +94,7 @@ describe("Projects class - Singleton", () => {
               acc[code] = `Title in ${code}`;
               return acc;
             },
-            {} as Record<LanguageCode, string>
+            {} as Record<LanguageCode, string>,
           ),
         // Missing imageUrls field
       },
@@ -105,7 +105,7 @@ describe("Projects class - Singleton", () => {
             acc[code] = `Title in ${code}`;
             return acc;
           },
-          {} as Record<LanguageCode, string>
+          {} as Record<LanguageCode, string>,
         ),
         imageUrls: [], // Empty imageUrls
       },
@@ -136,7 +136,7 @@ describe("Projects class - Singleton", () => {
               acc[code] = `Title in ${code}`;
               return acc;
             },
-            {} as Record<LanguageCode, string>
+            {} as Record<LanguageCode, string>,
           ),
           imageUrls: ["image1.png"],
         } as Project;
