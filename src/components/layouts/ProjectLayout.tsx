@@ -4,6 +4,7 @@ import Header from "@/components/elements/Header";
 import Footer from "@/components/elements/Footer";
 import Projects from "@/lib/data/projects";
 import i18n, { LanguageCode } from "@/i18n";
+import { useState } from "react";
 
 export default function ProjectLayout() {
   const params = useParams();
@@ -20,14 +21,15 @@ export default function ProjectLayout() {
   if (project === undefined) {
     throw new Error("Project not found.");
   }
+  const [title, setTitle] = useState(project.title[langCode]);
+  i18n.on("languageChanged", (lng) => {
+    setTitle(project.title[lng as LanguageCode]);
+  });
 
   return (
     <>
       <ScrollRestoration />
-      <Header
-        title={project.title[langCode]}
-        bgImageUrl={project.imageUrls[0]}
-      />
+      <Header title={title} bgImageUrl={project.imageUrls[0]} />
       <Outlet context={project} />
       <Footer />
     </>
