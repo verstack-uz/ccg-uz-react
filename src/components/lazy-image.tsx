@@ -1,3 +1,4 @@
+import ImageViewer from "@/components/commerce-ui/image-viewer-basic";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { cn } from "@/lib/utils";
 import { useInView } from "motion/react";
@@ -14,6 +15,8 @@ type LazyImageProps = {
   ratio: number;
   /** Whether the image should only load when it is in view. default: false */
   inView?: boolean;
+  /** Zoom in when the image is clicked. default: false */
+  zoom?: boolean;
 };
 
 export function LazyImage({
@@ -24,13 +27,14 @@ export function LazyImage({
   inView = false,
   className,
   AspectRatioClassName,
+  zoom = false,
 }: LazyImageProps) {
   const ref = React.useRef<HTMLDivElement | null>(null);
   const imgRef = React.useRef<HTMLImageElement | null>(null);
   const isInView = useInView(ref, { once: true });
 
   const [imgSrc, setImgSrc] = React.useState<string | undefined>(
-    inView ? undefined : src
+    inView ? undefined : src,
   );
   const [isLoading, setIsLoading] = React.useState(true);
 
@@ -63,30 +67,32 @@ export function LazyImage({
     <AspectRatio
       className={cn(
         "relative size-full overflow-hidden rounded-lg border bg-accent/30",
-        AspectRatioClassName
+        AspectRatioClassName,
       )}
       ratio={ratio}
       ref={ref}
     >
-      {imgSrc && (
-        // biome-ignore lint/nursery/useImageSize: dynamic image size
-        <img
-          alt={alt}
-          className={cn(
-            "size-full rounded-md object-cover transition-opacity duration-500",
-            isLoading ? "opacity-0" : "opacity-100",
-            className
-          )}
-          decoding="async"
-          fetchPriority={inView ? "high" : "low"}
-          loading="lazy"
-          onError={handleError}
-          onLoad={handleLoad}
-          ref={imgRef}
-          role="presentation" // Changed from "img" to "presentation" since it's decorative
-          src={imgSrc}
-        />
-      )}
+      {imgSrc &&
+        (zoom ? (
+          <ImageViewer thumbnailUrl={imgSrc} imageUrl={imgSrc} />
+        ) : (
+          <img
+            alt={alt}
+            className={cn(
+              "size-full rounded-md object-cover transition-opacity duration-500",
+              isLoading ? "opacity-0" : "opacity-100",
+              className,
+            )}
+            decoding="async"
+            fetchPriority={inView ? "high" : "low"}
+            loading="lazy"
+            onError={handleError}
+            onLoad={handleLoad}
+            ref={imgRef}
+            role="presentation" // Changed from "img" to "presentation" since it's decorative
+            src={imgSrc}
+          />
+        ))}
     </AspectRatio>
   );
 }

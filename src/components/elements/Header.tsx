@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import AppPaths from "@/routes/AppPaths";
-import ThemeToggle from "@/components/elements/ThemeToggle";
+import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import LanguageSelector from "@/components/elements/LanguageSelector";
 import HamburgerMenu from "@/components/elements/HamburgerMenu";
 import Navbar from "@/components/elements/Navbar";
@@ -30,7 +30,7 @@ export default function Header(props: HeaderProps) {
       {/* Background image */}
       <div className={"absolute inset-0 overflow-hidden"}>
         <img
-          src={props.bgImageUrl ? props.bgImageUrl : "images/header-bg.jpg"}
+          src={props.bgImageUrl ? props.bgImageUrl : "images/header-bg.jpeg"}
           alt={t("Image of construction company employees working on site")}
           className="w-full h-full object-cover"
         />
@@ -61,7 +61,8 @@ export default function Header(props: HeaderProps) {
           {/* Navbar for desktop */}
           <Navbar navLinks={navLinks} />
 
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
+          <AnimatedThemeToggler />
 
           <LanguageSelector />
 

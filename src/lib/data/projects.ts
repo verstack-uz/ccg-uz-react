@@ -41,11 +41,11 @@ export default class Projects {
       for (const languageCode of languageCodes) {
         if (!(languageCode in project.title)) {
           throw new Error(
-            `Project entry with id '${project.id}' is missing title for language: ${languageCode}`
+            `Project entry with id '${project.id}' is missing title for language: ${languageCode}`,
           );
         } else if (project.title[languageCode].trim().length === 0) {
           throw new Error(
-            `Project entry with id '${project.id}' has empty title for language: ${languageCode}`
+            `Project entry with id '${project.id}' has empty title for language: ${languageCode}`,
           );
         }
       }

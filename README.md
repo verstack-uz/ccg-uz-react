@@ -8,7 +8,7 @@
 - TypeScript
 - i18next
 - React
-- Shadcn + Magic UI + Kibo UI + 
+- Shadcn + Magic UI + Kibo UI
 - Vite (with a QR code plugin)
 - Vitest + jsdom
 - Eslint + typescript-eslint + prettier

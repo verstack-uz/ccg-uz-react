@@ -12,7 +12,7 @@ export const languages = {
 
 export type LanguageCode = keyof typeof languages;
 export const languageCodes: Array<LanguageCode> = Object.keys(
-  languages
+  languages,
 ) as Array<LanguageCode>;
 
 i18n
