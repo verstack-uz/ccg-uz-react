@@ -8,7 +8,10 @@
 - TypeScript
 - i18next
 - React
-- Shadcn + Magic UI + Kibo UI
+- Shadcn: [ui.shadcn.com](https://ui.shadcn.com/)
+  - Magic UI: [magicui.design](https://magicui.design/)
+  - Kibo UI: [kibo-ui.com](https://www.kibo-ui.com/)
+  - commerce-ui: [ui.stackzero.co](https://ui.stackzero.co/)
 - Vite (with a QR code plugin)
 - Vitest + jsdom
 - Eslint + typescript-eslint + prettier

@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import Header from "@/components/elements/Header";
@@ -13,6 +13,7 @@ export default function MainLayout() {
 
   return (
     <>
+      <ScrollRestoration />
       <Header title={title} subTitle={subTitle} />
       <Statistics />
       <Outlet />

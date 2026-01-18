@@ -2,9 +2,11 @@
   "CCG Logo": "CCG Логотип",
   "Civil Construction Group": "Группа гражданского строительства",
   "Completed projects": "Завершенные проекты",
+  "Construction": "Строительство",
+  "Contact": "Связаться",
   "Current projects": "Текущие проекты",
-  "Dark": "Темный",
   "Employees": "Сотрудники",
+  "Engineering": "Проектирование",
   "Equipments": "Техника",
   "Go to homepage": "Перейти на главную страницу",
   "header": {
@@ -12,7 +14,7 @@
     "heroText": "Доверьтесь профессиональным специалистам мирового класса"
   },
   "Image of construction company employees working on site": "Изображение сотрудников строительной компании, работающих на площадке",
-  "Light": "Светлый",
+  "Let's build together": "Давайте строить вместе",
   "navbar": {
     "career": "Карьера",
     "company": "Компания",
@@ -22,6 +24,10 @@
     "services": "Наши услуги"
   },
   "Other projects": "Другие проекты",
+  "Procurement": "Снабжение",
+  "Project photo": "Фотография проекта",
   "Project photos": "Фотографии",
-  "Service offer": "Предложение услуг"
+  "Service offer": "Предложение услуг",
+  "Start your construction project today!": "Начните свой строительный проект сегодня!",
+  "Xizmatlar": "Наши услуги"
 }

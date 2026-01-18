@@ -2,9 +2,11 @@
   "CCG Logo": "CCG Логотипи",
   "Civil Construction Group": "Civil Construction Group",
   "Completed projects": "Тугалланган лойиҳалар",
+  "Construction": "Қурилиш",
+  "Contact": "Боғланиш",
   "Current projects": "Жорий лойиҳалар",
-  "Dark": "Қоронғи",
   "Employees": "Ходимлар",
+  "Engineering": "Лойиҳалаш",
   "Equipments": "Техника",
   "Go to homepage": "Бош саҳифага ўтиш",
   "header": {
@@ -12,7 +14,7 @@
     "heroText": "Ҳалқаро даражадаги профeссионал мутахассисларга ишонинг"
   },
   "Image of construction company employees working on site": "Қурилиш компанияси ходимларининг қурилиш майдонида ишлаётган тасвири",
-  "Light": "Ёруғ",
+  "Let's build together": "Келинг, бирга қуримиз",
   "navbar": {
     "career": "Карьера",
     "company": "Компания",
@@ -22,6 +24,10 @@
     "services": "Хизматлар"
   },
   "Other projects": "Бошқа лойиҳалар",
+  "Procurement": "Таъминот",
+  "Project photo": "Фотосурат",
   "Project photos": "Лойиҳа фотосуратлари",
-  "Service offer": "Хизматларимиз"
+  "Service offer": "Хизматларимиз",
+  "Start your construction project today!": "Қурилиш лойиҳангизни бугуноқ бошланг!",
+  "Xizmatlar": "Хизматлар"
 }

@@ -1,4 +1,4 @@
-import i18n from "i18next";
+import i18n, { LanguageDetectorModule } from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
@@ -15,18 +15,55 @@ export const languageCodes: Array<LanguageCode> = Object.keys(
   languages,
 ) as Array<LanguageCode>;
 
+// Custom language detector plugin to convert "uz" to "uz-latin"
+const customDetector: LanguageDetectorModule = {
+  type: "languageDetector",
+  detect() {
+    const detector = new LanguageDetector();
+    detector.init({
+      order: ["localStorage", "navigator"],
+      caches: ["localStorage"],
+    });
+
+    let detected = detector.detect();
+    if (Array.isArray(detected)) {
+      detected = detected[0];
+    }
+
+    // Convert "uz" or "uz-*" without explicit variant to "uz-latin"
+    if (
+      typeof detected === "string" &&
+      detected.startsWith("uz") &&
+      !detected.match(/uz-(latin|cyrillic)/)
+    ) {
+      return "uz-latin";
+    }
+
+    // Only return detected language if it's one of our supported languages
+    if (
+      typeof detected === "string" &&
+      languageCodes.includes(detected as LanguageCode)
+    ) {
+      return detected;
+    }
+
+    // Return undefined to use fallbackLng
+    return undefined;
+  },
+  cacheUserLanguage(lng: string) {
+    localStorage.setItem("i18nextLng", lng);
+  },
+};
+
 i18n
   .use(Backend) // loads translations from /public/locales
-  .use(LanguageDetector) // detects user language
+  .use(customDetector) // custom detector
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     fallbackLng: "uz-latin",
+    supportedLngs: languageCodes,
     backend: {
       loadPath: "/locales/{{lng}}/{{ns}}.json",
-    },
-    detection: {
-      order: ["localStorage", "navigator"],
-      caches: ["localStorage"],
     },
   });
 

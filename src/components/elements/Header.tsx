@@ -72,7 +72,7 @@ export default function Header(props: HeaderProps) {
 
         {/* Hero text */}
         {(props.title || props.subTitle) && (
-          <div className="px-2 flex flex-col flex-1 justify-center space-y-3 md:space-y-4.5 text-white">
+          <div className="container mx-auto px-2 flex flex-col flex-1 justify-center space-y-3 md:space-y-4.5 text-white">
             {props.title && (
               <h1
                 className={"text-3xl md:text-4xl text-center tracking-normal"}
