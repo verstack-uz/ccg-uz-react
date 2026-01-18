@@ -1,4 +1,4 @@
-import i18n from "i18next";
+import i18n, { LanguageDetectorModule } from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
@@ -16,9 +16,9 @@ export const languageCodes: Array<LanguageCode> = Object.keys(
 ) as Array<LanguageCode>;
 
 // Custom language detector plugin to convert "uz" to "uz-latin"
-const customDetector = {
-  name: "customUzbekDetector",
-  lookup() {
+const customDetector: LanguageDetectorModule = {
+  type: "languageDetector",
+  detect() {
     const detector = new LanguageDetector();
     detector.init({
       order: ["localStorage", "navigator"],
@@ -48,7 +48,7 @@ const customDetector = {
 
 i18n
   .use(Backend) // loads translations from /public/locales
-  .use({ type: "languageDetector", ...customDetector } as any) // custom detector
+  .use(customDetector) // custom detector
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     fallbackLng: "uz-latin",
