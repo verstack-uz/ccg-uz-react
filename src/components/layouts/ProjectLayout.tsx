@@ -1,4 +1,4 @@
-import { Outlet, useParams } from "react-router-dom";
+import { Outlet, ScrollRestoration, useParams } from "react-router-dom";
 
 import Header from "@/components/elements/Header";
 import Footer from "@/components/elements/Footer";
@@ -23,6 +23,7 @@ export default function ProjectLayout() {
 
   return (
     <>
+      <ScrollRestoration />
       <Header
         title={project.title[langCode]}
         bgImageUrl={project.imageUrls[0]}
