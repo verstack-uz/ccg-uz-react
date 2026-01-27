@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run all",
+      "dependsOrder": "sequence",
+      "dependsOn": ["npm: ci", "npm: lint", "npm: test"],
+      "problemMatcher": []
+    }
+  ]
+}
