@@ -68,7 +68,7 @@ export default class Projects {
     return projectsList.find((project) => project.id === projectId);
   }
 
-  public filter<T>(predicate: (project: Project) => boolean): Array<Project> {
+  public filter(predicate: (project: Project) => boolean): Array<Project> {
     return projectsList.filter(predicate);
   }
 
