@@ -22,7 +22,7 @@ export default function HomePage() {
       >
         {t("Current projects").toUpperCase()}
       </h1>
-      <ProjectsCarousel />
+      <ProjectsCarousel isCompleted={false} />
 
       {/* Bog'lanish tugmasi */}
       <div
@@ -65,6 +65,16 @@ export default function HomePage() {
         {t("Xizmatlar").toUpperCase()}
       </h1>
       <Services />
+
+      {/* Tugallangan loyihalar karuseli */}
+      <h1
+        className={
+          "mt-16 mb-4 md:mt-24 md:mb-8 text-2xl md:text-4xl text-center tracking-normal"
+        }
+      >
+        {t("Tugallangan loyihalar").toUpperCase()}
+      </h1>
+      <ProjectsCarousel isCompleted={true} />
     </>
   );
 }

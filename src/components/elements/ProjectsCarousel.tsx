@@ -11,9 +11,23 @@ import Projects from "@/lib/data/projects";
 import i18, { LanguageCode } from "@/i18n";
 import AppPaths from "@/routes/AppPaths";
 import { LazyImage } from "@/components/lazy-image";
+import { Project } from "@/lib/types/Project";
 
-export default function ProjectsCarousel() {
+interface ProjectsCarouselProps {
+  isCompleted?: boolean;
+}
+
+export default function ProjectsCarousel(props: ProjectsCarouselProps) {
   const projects = Projects.getInstance();
+  let projectsFiltered = Array<Project>();
+  if (props.isCompleted === undefined) {
+    projectsFiltered = projects.filter(() => true);
+  } else {
+    projectsFiltered = projects.filter(
+      (project) => project.isCompleted === props.isCompleted,
+    );
+  }
+
   const langCode: LanguageCode = i18.language as LanguageCode;
   const navigate = useNavigate();
 
@@ -32,7 +46,7 @@ export default function ProjectsCarousel() {
       className="w-full"
     >
       <CarouselContent>
-        {projects.map((project) => (
+        {projectsFiltered.map((project) => (
           <CarouselItem key={project.id} className="md:basis-1/2 lg:basis-1/3">
             <Card
               className="mx-2 overflow-hidden hover:shadow-xl transition-shadow duration-300 p-0 cursor-pointer"

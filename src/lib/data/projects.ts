@@ -31,22 +31,30 @@ export default class Projects {
 
     // Verify each project entry
     for (const project of projectsList) {
-      for (const field of ["id", "title", "imageUrls"]) {
+      for (const field of [
+        "id",
+        "title",
+        "description",
+        "imageUrls",
+        "isCompleted",
+      ]) {
         if (!(field in project)) {
           throw new Error(`Project entry is missing required field: ${field}`);
         }
       }
 
-      // Check that title has all supported languages
+      // Check that title and description has all supported languages
       for (const languageCode of languageCodes) {
-        if (!(languageCode in project.title)) {
-          throw new Error(
-            `Project entry with id '${project.id}' is missing title for language: ${languageCode}`,
-          );
-        } else if (project.title[languageCode].trim().length === 0) {
-          throw new Error(
-            `Project entry with id '${project.id}' has empty title for language: ${languageCode}`,
-          );
+        for (const field of ["title", "description"] as const) {
+          if (!(languageCode in project[field])) {
+            throw new Error(
+              `Project entry with id '${project.id}' is missing ${field} for language: ${languageCode}`,
+            );
+          } else if (project[field][languageCode].trim().length === 0) {
+            throw new Error(
+              `Project entry with id '${project.id}' has empty ${field} for language: ${languageCode}`,
+            );
+          }
         }
       }
     }
@@ -60,7 +68,11 @@ export default class Projects {
     return projectsList.find((project) => project.id === projectId);
   }
 
-  public map<T>(callback: (project: Project, index: number) => T): T[] {
+  public filter<T>(predicate: (project: Project) => boolean): Array<Project> {
+    return projectsList.filter(predicate);
+  }
+
+  public map<T>(callback: (project: Project, index: number) => T): Array<T> {
     return projectsList.map(callback);
   }
 }

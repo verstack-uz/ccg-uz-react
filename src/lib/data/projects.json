@@ -2,10 +2,16 @@
   {
     "id": 1,
     "title": {
-      "uz-latin": "500 MVt quvvatli quyosh fotoelektr stansiyasi maydonini tekislash va rejalashtirish ishlari (Samarqand)",
-      "uz-cyrillic": "500 МВт қувватли қуёш фотоэлектр станцияси майдонини текислаш ва режалаштириш ишлари (Самарқанд)",
-      "ru": "Планировка и выравнивание площадки солнечной электростанции мощностью 500 МВт в Самарканде",
-      "en": "Leveling and grading of a (500 MW) photovoltaic site and construction of access and internal roads in Samarkand"
+      "uz-latin": "1500 MVt CCGT mustaqil elektr stantsiyasi loyihasi",
+      "uz-cyrillic": "1500 МВт CCGT мустақил электр станцияси лойиҳаси",
+      "ru": "Проект независимой электростанции ПГУ 1500 МВт",
+      "en": "1500 MW CCGT independent power plant project"
+    },
+    "description": {
+      "uz-latin": "Sirdaryo viloyati Shirin shahridagi \"Mustaqil energiya loyihasi CCGT 1500 MVt\" qurilishida Energoblok va bugʻ turbinasi uchun qazish, toʻldirish va siqish ishlari. Xaridor: ACWA Power, Gen. podryadchi: \"China Gezhouba Group International Engineering Co, LTD.\":\n1) Elektr bloki va bug' turbinasi uchun qazish, to'ldirish va chuqurlarni muhrlash,\n2) AIS zonasidagi yer ishlari (500 kv, 220 kv), \"O'zbekiston Sirdaryo davlat universiteti avtonom elektr stansiyasi loyihasi \"Boshqarma binosi\" quvvati 1500 MVt\",\n3) \"Vaqtinchalik drenaj kanallarini\" o'rnatish,\n4) Yerni ko`mish uchun materialni tashish: karerlardan shag'al, shag'al va qum. (Shag'al-100000 m3, shag'al-25000 m3, qum – 20000 m3),\n5) Balandlikka qarab diametri 800 mm bo'lgan beton qoziqlarni demontaj qilish,\n6) \"O'zbekiston Sirdaryo mustaqil elektr stansiyasi quvvati 1500 MVt\" loyihasi doirasida qurilish maydonchasida loyiha tashabbuskori vaqtinchalik ofisini va lager uchun yoritish tayanchlarini qurish.\n7) \"O'zbekistonda quvvati 1500 MVt bo'lgan pgu mustaqil elektr stansiyasi loyihasi\" loyiha tashabbuskorining vaqtinchalik ofisi uchun avtomobil to'xtash joyi va oshxonasi qurilishi.\n8) Hududni obodonlashtirish",
+      "uz-cyrillic": "Сирдарё вилояти Ширин шаҳридаги \"Мустақил энергия лойиҳаси CCGT 1500 МВт\" қурилишида Энергоблок ва буғ турбинаси учун қазиш, тўлдириш ва сиқиш ишлари. Харидор: ACWA Power, Ген. подрядчи: \"China Gezhouba Group International Engineering Co, LTD.\":\n1) Электр блоки ва буғ турбинаси учун қазиш, тўлдириш ва чуқурларни муҳрлаш,\n2) AIS зонасидаги ер ишлари (500 кв, 220 кв), \"Ўзбекистон Сирдарё давлат университети автоном электр станцияси лойиҳаси \"Бошқарма биноси\" қуввати 1500 МВт\",\n3) \"Вақтинчалик дренаж каналларини\" ўрнатиш,\n4) Ерни кўмиш учун материални ташиш: карерлардан шағал, шағал ва қум. (Шағал-100000 м3, шағал-25000 м3, қум – 20000 м3),\n5) Баландликка қараб диаметри 800 мм бўлган бетон қозиқларни демонтаж қилиш,\n6) \"Ўзбекистон Сирдарё мустақил электр станцияси қуввати 1500 МВт\" лойиҳаси доирасида қурилиш майдончасида лойиҳа ташаббускори вақтинчалик офисини ва лагер учун ёритиш таянчларини қуриш.\n7) \"Ўзбекистонда қуввати 1500 МВт бўлган пгу мустақил электр станцияси лойиҳаси\" лойиҳа ташаббускорининг вақтинчалик офиси учун автомобил тўхташ жойи ва ошхонаси қурилиши.\n8) Ҳудудни ободонлаштириш",
+      "ru": "Выемка грунта, обратная засыпка и уплотнение для Силового блока и Паровой турбины в строительстве «Независимого энерго-проект ПГУ 1500 МВт» в городе Ширин, Сырдарьинская область. Заказчик: «ACWA Power», Ген. подрядчик: «China Gezhouba Group International Engineering Co, LTD.»:\n1) Земляные работы, обратная засыпка и уплотнение котлованов для энергоблока и паровой турбины,\n2) Земляные работы в зоне АИС (500 кВ, 220 кВ), здание управления \"Проект автономной электростанции ПГУ \"Узбекистан Сирдарья\" мощностью 1500 МВт\",\n3) Установка \"Временных дренажных каналов\",\n4) Транспортировка материала для обратной засыпки: гравия, щебня и песка из карьеров. (Гравий – 100000 м3, щебень – 25000 м3, песок – 20000 м3),\n5) Демонтаж бетонных свай диаметром 800 мм в зависимости от высоты,\n6) Строительство Временного офиса владельца на строительной площадке и опор освещения для лагеря в рамках проекта \"Независимая электростанция Узбекистана Сирдарья мощностью 1500 МВт\".\n7) Строительство автомобильной стоянки и столовой для временного офиса владельца \"Проекта независимой электростанции ПГУ мощностью 1500 МВт в Узбекистане\".\n8) Благоустройство территории",
+      "en": "Excavation, backfilling and compaction for Power Unit and Steam Turbine in construction of \"Independent Power Project CCGT 1500 MW\" in Shirin city, Syrdarya region. Client: \"ACWA Power\", General Contractor: \"China Gezhouba Group International Engineering Co, LTD\":\n1) Excavation, backfilling and compaction pits for Power block and Steam turbine,\n2) Earth works in AIS area (500 kv, 220 kv.), control building \"Uzbekistan Sirdarya 1500 MW CCGT Independent Power Project\",\n3) Installing \"Temporary drainage channels\",\n4) Transporting backfill material: gravel, crushed stones and sand from quarries. (Gravel – 100000 m3, crushed stones – 25000 m3, sand – 20000 m3),\n5) Breaking down 800 mm concrete piles according to the elevation,\n6) 2021 y. Construction of Owner's Temporary Site Office and Camp lighting poles of \"Uzbekistan Sirdarya 1500 MW CCGT Independent Power Project\",\n7) Construction of car parking and canteen for Owner's Temporary Office of \"Uzbekistan Sirdarya 1500 MW CCGT Independent Power Project\",\n8) Landscaping"
     },
     "imageUrls": [
       "/images/projects/1/1.jpeg",
@@ -13,42 +19,54 @@
       "/images/projects/1/3.jpeg",
       "/images/projects/1/4.jpeg",
       "/images/projects/1/5.jpeg",
-      "/images/projects/1/6.jpeg"
-    ]
+      "/images/projects/1/6.jpeg",
+      "/images/projects/1/7.jpeg",
+      "/images/projects/1/8.jpeg",
+      "/images/projects/1/9.jpeg",
+      "/images/projects/1/10.jpeg",
+      "/images/projects/1/11.jpeg",
+      "/images/projects/1/12.jpeg",
+      "/images/projects/1/13.jpeg",
+      "/images/projects/1/14.jpeg",
+      "/images/projects/1/15.jpeg",
+      "/images/projects/1/16.jpeg"
+    ],
+    "isCompleted": true
   },
   {
     "id": 2,
     "title": {
-      "uz-latin": "Bekobod Kiyik Bog'ida restoran, veterinariya, va kafe qurilish ishlari",
-      "uz-cyrillic": "Бекобод Кийик Боғида ресторан, ветеринария, ва кафе қурилиш ишлари",
-      "ru": "Строительство ресторана, ветеринарной клиники, и кафе в Бекободском Оленином Парке",
-      "en": "Construction of restaurant, veterinary clinic, and cafe in the Bekobod Deer Park"
+      "uz-latin": "Anhor qarorgohi",
+      "uz-cyrillic": "Анҳор қароргоҳи",
+      "ru": "Резиденция Анхор",
+      "en": "Anhor Residence"
+    },
+    "description": {
+      "uz-latin": "2020-2021 yillar \"ASL MAKON SARI\" MChJ Toshkent shahridagi\"ANHOR RESIDENCE\" loyihasi uchun. (drenaj, 45 ming kub metr tuproqni olib tashlash, uchastkalarni to'ldirish va siqish uchun qazish ishlari, mustahkamlash va beton ishlari)",
+      "uz-cyrillic": "2020-2021 йиллар \"ASL MAKON SARI\" МЧЖ Тошкент шаҳридаги \"ANHOR RESIDENCE\" лойиҳаси учун. (дренаж, 45 минг куб метр тупроқни олиб ташлаш, участкаларни тўлдириш ва сиқиш учун қазиш ишлари, мустаҳкамлаш ва бетон ишлари)",
+      "ru": "2020-2021 гг. ООО \"ASL MAKON SARI\" для проекта \"ANHOR RESIDENCE\" в г. Ташкент. (осушение, вывоз 45 тыс. куб. м. грунта, земляные работы по обратной засыпке и уплотнению площадок, арматурные работы и бетонные работы)",
+      "en": "2020-2021. ASL MAKON SARI LLC for ANHOR RESIDENCE project in Tashkent city. (dewatering, removal of 45 thousand cubic meters of soil, earthworks on backfilling and compaction of sites, reinforcement works and concrete works)."
     },
     "imageUrls": [
       "/images/projects/2/1.jpeg",
       "/images/projects/2/2.jpeg",
-      "/images/projects/2/3.jpeg",
-      "/images/projects/2/4.jpeg",
-      "/images/projects/2/5.jpeg",
-      "/images/projects/2/6.jpeg",
-      "/images/projects/2/7.jpeg",
-      "/images/projects/2/8.jpeg",
-      "/images/projects/2/9.jpeg",
-      "/images/projects/2/10.jpeg",
-      "/images/projects/2/11.jpeg",
-      "/images/projects/2/12.jpeg",
-      "/images/projects/2/13.jpeg",
-      "/images/projects/2/14.jpeg",
-      "/images/projects/2/15.jpeg"
-    ]
+      "/images/projects/2/3.jpeg"
+    ],
+    "isCompleted": true
   },
   {
     "id": 3,
     "title": {
-      "uz-latin": "Yashnobod tumani, Mahtumquli ko`chasidagi savdo biznes markazida qurilish ishlari",
-      "uz-cyrillic": "Яшнобод тумани, Маҳтумқули кўчасидаги савдо бизнес марказида қурилиш ишлари",
-      "ru": "Строительные работы в торговом бизнес центре на улице Махтумкули Яшнабадского района",
-      "en": "Construction works at the Trade Business Center in Makhtumkuli street, Yashnobod district"
+      "uz-latin": "Farg'ona vodiysida suv resurslarini boshqarish-2-bosqich",
+      "uz-cyrillic": "Фарғона водийсида сув ресурсларини бошқариш-2-босқич",
+      "ru": "Управление водными ресурсами в Ферганской долине. Фаза-2",
+      "en": "Water Resources Management in the Fergana Valley Phase-2"
+    },
+    "description": {
+      "uz-latin": "\"Farg'ona vodiysida suv resurslarini boshqarish-2-bosqich\" loyihasi pudratchi \"China Nuclear Industry 22nd Construction Co.,Ltd.\"",
+      "uz-cyrillic": "\"Фарғона водийсида сув ресурсларини бошқариш-2-босқич\" лойиҳаси пудратчи \"China Nuclear Industry 22nd Construction Co.,Ltd.\"",
+      "ru": "Проект «Управление водными ресурсами в Ферганской долине. Фаза-2» Подрядчик «China Nuclear Industry 22nd Construction Co.,Ltd.»",
+      "en": "Project \"Water Resources Management in the Fergana Valley Phase-2\" Contractor \"China Nuclear Industry 22nd Construction Co.,Ltd.\""
     },
     "imageUrls": [
       "/images/projects/3/1.jpeg",
@@ -58,16 +76,28 @@
       "/images/projects/3/5.jpeg",
       "/images/projects/3/6.jpeg",
       "/images/projects/3/7.jpeg",
-      "/images/projects/3/8.jpeg"
-    ]
+      "/images/projects/3/8.jpeg",
+      "/images/projects/3/9.jpeg",
+      "/images/projects/3/10.jpeg",
+      "/images/projects/3/11.jpeg",
+      "/images/projects/3/12.jpeg",
+      "/images/projects/3/13.jpeg"
+    ],
+    "isCompleted": true
   },
   {
     "id": 4,
     "title": {
-      "uz-latin": "Toshkent viloyatida 500 MWh energiya saqlash loyihasining ikkinchi bosqichi uchun kirish yo'li qurilish ishlari",
-      "uz-cyrillic": "Тошкент вилоятида 500 МВт·с энергия сақлаш лойиҳасининг иккинчи босқичи учун кириш йўли қурилиш ишлари",
-      "ru": "Инженерные работы по подъездной дороге для второй фазы проекта хранения энергии на 500 МВт·ч Ташкентской области",
-      "en": "Access road engineering for the second phase of the 500MWh energy storage project in Tashkent region"
+      "uz-latin": "Muborak tumanida oltingugurtdan granula ishlab chiqarish zavodi qurilishi",
+      "uz-cyrillic": "Муборак туманида олтингугуртдан гранула ишлаб чиқариш заводи қурилиши",
+      "ru": "Строительство завода по гранулированию серы в Мубареке.",
+      "en": "Construction of Sulphur Granulation Plant in Mubarek"
+    },
+    "description": {
+      "uz-latin": "Muborak tumanida oltingugurtdan granula ishlab chiqarish zavodi qurilishi",
+      "uz-cyrillic": "Муборак туманида олтингугуртдан гранула ишлаб чиқариш заводи қурилиши",
+      "ru": "Строительство завода по гранулированию серы в Мубареке.",
+      "en": "Construction of Sulphur Granulation Plant in Mubarek"
     },
     "imageUrls": [
       "/images/projects/4/1.jpeg",
@@ -90,16 +120,26 @@
       "/images/projects/4/18.jpeg",
       "/images/projects/4/19.jpeg",
       "/images/projects/4/20.jpeg",
-      "/images/projects/4/21.jpeg"
-    ]
+      "/images/projects/4/21.jpeg",
+      "/images/projects/4/22.jpeg",
+      "/images/projects/4/23.jpeg",
+      "/images/projects/4/24.jpeg"
+    ],
+    "isCompleted": true
   },
   {
     "id": 5,
     "title": {
-      "uz-latin": "\"Acwa Power\" Sirdaryo Shirin 1500 MW CCGT Loyihasi",
-      "uz-cyrillic": "\"Acwa Power\" Сирдарё Ширин 1500 МВт CCGT Лойиҳаси",
-      "ru": "Проект \"Acwa Power\" Sirdaryo Shirin 1500 МВт CCGT",
-      "en": "\"Acwa Power\" Sirdarya Shirin 1500 MW CCGT Project"
+      "uz-latin": "200 MVt quvvatga ega Riverside quyosh elektr stansiyasi",
+      "uz-cyrillic": "200 МВт қувватга эга Riverside қуёш электр станцияси",
+      "ru": "Солнечная электростанция Riverside мощностью 200 МВт",
+      "en": "200MW Riverside solar project"
+    },
+    "description": {
+      "uz-latin": "O'zbekiston Respublikasining Toshkent viloyatidagi 200 MVt quvvatga ega quyosh fotoelektri loyihasida suv kanallari qurilishi (Toshkent viloyati Yuqorichirchiq tumanidagi \"O'zSUVTAMINOT\" AJ hududida) Egasi: \"ACWA Power\". Gen. podryadchi: \"CHINA ENERGY INTL GROUP CAS CO., LTD.\":\n1) Kanallar, suv omborlari va havzalarda qurilish ishlari (2 suv ombori, 2 havza, kanal uzunligi 22 km dan ortiq),\n2) Uzunligi 1100 metrdan ortiq g'isht bilan devor qurilishi,\n3) 7000 metrdan ortiq PVX bilan qoplangan panjara devor (Evro to`siq),\n4) Yo'llarni asfaltlash (22100 m2),\n5) Podstansiya uchun admin va nazorat binolarini qurish;\n6) Obodonlashtirish, yangi kirish eshiklarini o'rnatish.",
+      "uz-cyrillic": "Ўзбекистон Республикасининг Тошкент вилоятидаги 200 МВт қувватга эга қуёш фотоэлектри лойиҳасида сув каналлари қурилиши (Тошкент вилояти Юқоричирчиқ туманидаги \"ЎзСУВТАМИНОТ\" АЖ ҳудудида) Эгаси: \"ACWA Power\". Ген. подрядчи: \"CHINA ENERGY INTL GROUP CAS CO., LTD.\":\n1) Каналлар, сув омборлари ва ҳавзаларда қурилиш ишлари (2 сув омбори, 2 ҳавза, канал узунлиги 22 км дан ортиқ),\n2) Узунлиги 1100 метрдан ортиқ ғишт билан девор қурилиши,\n3) 7000 метрдан ортиқ PVX билан қопланган панжара девор (Эвро тўсиқ),\n4) Йўлларни асфальтлаш (22100 м2),\n5) Подстанция учун админ ва назорат биноларини қуриш;\n6) Ободонлаштириш, янги кириш эшикларини ўрнатиш.",
+      "ru": "Строительные работы на водоканалах в рамках проекта солнечной фотоэлектрической установки коммунального назначения мощностью 200 МВт в Ташкентской области Республики Узбекистан (на территории АО «УЗСУВТАМИНОТ» в Юкоричирчикском районе Ташкентской области) Владелец: «ACWA Power». Генеральный подрядчик: «CHINA ENERGY INTL GROUP CAS CO., LTD.»\n1) Строительные работы на каналах, водохранилищах и бассейнах (2 водохранилища, 2 бассейна, длина каналов более 22 км),\n2) Кирпичный забор длиной более 1 100 метров,\n3) Еврозабор длиной более 7 000 метров с ПВХ покрытием,\n4) Асфальтирование дорог (22 100 м2),\n5) Строительство зданий управления и контроля подстанций,\n6) Благоустройство территории, Установка новых въездных ворот.",
+      "en": "Construction Works in 200MW Utility-Scale Solar Photovoltaic Project in the Tashkent Region of the Republic of Uzbekistan (in the territory of JSC \"UZSUVTAMINOT\" in Yukorichirchik district of the Tashkent region) Owner: \"ACWA Power\". General contractor: \"CHINA ENERGY INTL GROUP CAS CO., LTD.\":\n1) Construction Works on Canals, Reservoirs and Pools (2 Reservoirs, 2 Pools, More than 22 km. length of Canals),\n2) More than 1 100 meter brick fencing,\n3) More than 7 000 meter Evro Fence with PVC Coated,\n4) Road Asphalting (22 100 m2),\n5) Construction substation administration and control buildings,\n6) Landscaping, Installing new entrance gate,"
     },
     "imageUrls": [
       "/images/projects/5/1.jpeg",
@@ -107,58 +147,389 @@
       "/images/projects/5/3.jpeg",
       "/images/projects/5/4.jpeg",
       "/images/projects/5/5.jpeg",
-      "/images/projects/5/6.jpeg"
-    ]
+      "/images/projects/5/6.jpeg",
+      "/images/projects/5/7.jpeg",
+      "/images/projects/5/8.jpeg",
+      "/images/projects/5/9.jpeg",
+      "/images/projects/5/10.jpeg",
+      "/images/projects/5/11.jpeg",
+      "/images/projects/5/12.jpeg",
+      "/images/projects/5/13.jpeg",
+      "/images/projects/5/14.jpeg",
+      "/images/projects/5/15.jpeg",
+      "/images/projects/5/16.jpeg",
+      "/images/projects/5/17.jpeg",
+      "/images/projects/5/18.jpeg",
+      "/images/projects/5/19.jpeg",
+      "/images/projects/5/20.jpeg",
+      "/images/projects/5/21.jpeg",
+      "/images/projects/5/22.jpeg",
+      "/images/projects/5/23.jpeg",
+      "/images/projects/5/24.jpeg",
+      "/images/projects/5/25.jpeg",
+      "/images/projects/5/26.jpeg",
+      "/images/projects/5/27.jpeg",
+      "/images/projects/5/28.jpeg",
+      "/images/projects/5/29.jpeg",
+      "/images/projects/5/30.jpeg",
+      "/images/projects/5/31.jpeg",
+      "/images/projects/5/32.jpeg",
+      "/images/projects/5/33.jpeg",
+      "/images/projects/5/34.jpeg",
+      "/images/projects/5/35.jpeg",
+      "/images/projects/5/36.jpeg",
+      "/images/projects/5/37.jpeg",
+      "/images/projects/5/38.jpeg"
+    ],
+    "isCompleted": true
   },
   {
     "id": 6,
     "title": {
-      "uz-latin": "\"500 MVt BESS\" loyihasi uchun poydevorlar va ma'muriy binoni qurish",
-      "uz-cyrillic": "\"500 МВт БEСС\" лойиҳаси учун пойдеворлар ва маъмурий бинони қуриш",
-      "ru": "Строительство фундаментов и административного здания проекта \"500 МВт BESS\"",
-      "en": "Construction of foundations and administration building of \"500 MW BESS\" project"
+      "uz-latin": "Toshkent viloyati yuqori chirchiq tumani 500 MVt",
+      "uz-cyrillic": "Тошкент вилояти юқори чирчиқ тумани 500 МВт",
+      "ru": "Верхне-Чирчикский район Ташкентской области 500 МВт",
+      "en": "Yuqori Chirchik district of Tashkent region 500 MWt"
+    },
+    "description": {
+      "uz-latin": "Toshkent viloyati yuqori chirchiq tumani 500 MVt",
+      "uz-cyrillic": "Тошкент вилояти юқори чирчиқ тумани 500 МВт",
+      "ru": "Верхне-Чирчикский район Ташкентской области 500 МВт",
+      "en": "Yuqori Chirchik district of Tashkent region 500 MWt"
     },
     "imageUrls": [
       "/images/projects/6/1.jpeg",
       "/images/projects/6/2.jpeg",
       "/images/projects/6/3.jpeg",
       "/images/projects/6/4.jpeg",
-      "/images/projects/6/5.jpeg"
-    ]
+      "/images/projects/6/5.jpeg",
+      "/images/projects/6/6.jpeg",
+      "/images/projects/6/7.jpeg",
+      "/images/projects/6/8.jpeg",
+      "/images/projects/6/9.jpeg",
+      "/images/projects/6/10.jpeg"
+    ],
+    "isCompleted": true
   },
   {
     "id": 7,
     "title": {
-      "uz-latin": "Muborak tumanida oltingugurtdan granula ishlab chiqarish zavodi qurilishi",
-      "uz-cyrillic": "Муборак туманида олтингугуртдан гранула ишлаб чиқариш заводи қурилиши",
-      "ru": "Строительство завода по гранулированию серы на Мубарекском районе",
-      "en": "Construction of sulphur granulation plant in Mubarek district"
+      "uz-latin": "Acwa Power ofisi",
+      "uz-cyrillic": "Acwa Power офиси",
+      "ru": "Офис Acwa Power",
+      "en": "Acwa Power Head Office"
+    },
+    "description": {
+      "uz-latin": "Acwa Power Bosh ofisini kapital ta'mirlash va jihozlash",
+      "uz-cyrillic": "Acwa Power Бош офисини капитал таъмирлаш ва жиҳозлаш",
+      "ru": "Капитальный ремонт и реконструкция головного офиса Acwa Power",
+      "en": "Major Repairing and Renovation of the Head Office of Acwa Power"
     },
     "imageUrls": [
       "/images/projects/7/1.jpeg",
       "/images/projects/7/2.jpeg",
       "/images/projects/7/3.jpeg",
-      "/images/projects/7/4.jpeg",
-      "/images/projects/7/5.jpeg",
-      "/images/projects/7/6.jpeg",
-      "/images/projects/7/7.jpeg",
-      "/images/projects/7/8.jpeg",
-      "/images/projects/7/9.jpeg",
-      "/images/projects/7/10.jpeg",
-      "/images/projects/7/11.jpeg",
-      "/images/projects/7/12.jpeg",
-      "/images/projects/7/13.jpeg",
-      "/images/projects/7/14.jpeg",
-      "/images/projects/7/15.jpeg",
-      "/images/projects/7/16.jpeg",
-      "/images/projects/7/17.jpeg",
-      "/images/projects/7/18.jpeg",
-      "/images/projects/7/19.jpeg",
-      "/images/projects/7/20.jpeg",
-      "/images/projects/7/21.jpeg",
-      "/images/projects/7/22.jpeg",
-      "/images/projects/7/23.jpeg",
-      "/images/projects/7/24.jpeg"
-    ]
+      "/images/projects/7/4.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 8,
+    "title": {
+      "uz-latin": "Acwa Power ofisi 2",
+      "uz-cyrillic": "Acwa Power офиси 2",
+      "ru": "Офис Acwa Power 2",
+      "en": "Acwa Power Head Office 2"
+    },
+    "description": {
+      "uz-latin": "Acwa Power Bosh ofisini kapital ta'mirlash va jihozlash",
+      "uz-cyrillic": "Acwa Power Бош офисини капитал таъмирлаш ва жиҳозлаш",
+      "ru": "Капитальный ремонт и реконструкция головного офиса Acwa Power",
+      "en": "Major Repairing and Renovation of the Head Office of Acwa Power"
+    },
+    "imageUrls": [
+      "/images/projects/8/1.jpeg",
+      "/images/projects/8/2.jpeg",
+      "/images/projects/8/3.jpeg",
+      "/images/projects/8/4.jpeg",
+      "/images/projects/8/5.jpeg",
+      "/images/projects/8/6.jpeg",
+      "/images/projects/8/7.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 9,
+    "title": {
+      "uz-latin": "Toshkent viloyatida 500 MWh energiya saqlash loyihasining ikkinchi bosqichi uchun kirish yoʻli qurilish ishlari.",
+      "uz-cyrillic": "Тошкент вилоятида 500 МВт·с энергия сақлаш лойиҳасининг иккинчи босқичи учун кириш йўли қурилиш ишлари.",
+      "ru": "Инженерные работы по подъездной дороге для второй фазы проекта хранения энергии на 500 МВт·ч в Ташкенте, Узбекистан.",
+      "en": "Access road engineering for the second phase of the 500MWh energy storage project in Tashkent, Uzbekistan."
+    },
+    "description": {
+      "uz-latin": "Acwa Power kompaniyasining BESS (Batariya Energiya Saqlash Tizimi) loyihasiga kirish yo`llarini barpo etish",
+      "uz-cyrillic": "Acwa Power компаниясининг БEСС (Батарея Энергия Сақлаш Тизими) лойиҳасига кириш йўлларини барпо этиш",
+      "ru": "Строительство подъездных путей к проекту BESS (Система хранения энергии на аккумуляторах) компании Acwa Power.",
+      "en": "Construction Access Roads to BESS (Battery Energy Storage System) Project of Acwa Power"
+    },
+    "imageUrls": [
+      "/images/projects/9/1.jpeg",
+      "/images/projects/9/2.jpeg",
+      "/images/projects/9/3.jpeg",
+      "/images/projects/9/4.jpeg",
+      "/images/projects/9/5.jpeg",
+      "/images/projects/9/6.jpeg",
+      "/images/projects/9/7.jpeg",
+      "/images/projects/9/8.jpeg",
+      "/images/projects/9/9.jpeg",
+      "/images/projects/9/10.jpeg",
+      "/images/projects/9/11.jpeg",
+      "/images/projects/9/12.jpeg",
+      "/images/projects/9/13.jpeg",
+      "/images/projects/9/14.jpeg",
+      "/images/projects/9/15.jpeg",
+      "/images/projects/9/16.jpeg",
+      "/images/projects/9/17.jpeg",
+      "/images/projects/9/18.jpeg",
+      "/images/projects/9/19.jpeg",
+      "/images/projects/9/20.jpeg",
+      "/images/projects/9/21.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 10,
+    "title": {
+      "uz-latin": "Yashnobod tumani, Mahtumquli ko`chasidagi savdo biznes markazi",
+      "uz-cyrillic": "Яшнобод тумани, Маҳтумқули кўчасидаги савдо бизнес маркази",
+      "ru": "Торговый бизнес центр на улице Махтумкули, Яшнабадский район",
+      "en": "Trade Business Center in Makhtumkuli street, Yashnobod district"
+    },
+    "description": {
+      "uz-latin": "Yashnobod tumani, Mahtumquli ko`chasidagi savdo biznes markazi",
+      "uz-cyrillic": "Яшнобод тумани, Маҳтумқули кўчасидаги савдо бизнес маркази",
+      "ru": "Торговый бизнес центр на улице Махтумкули, Яшнабадский район",
+      "en": "Trade Business Center in Makhtumkuli street, Yashnobod district"
+    },
+    "imageUrls": [
+      "/images/projects/10/1.jpeg",
+      "/images/projects/10/2.jpeg",
+      "/images/projects/10/3.jpeg",
+      "/images/projects/10/4.jpeg",
+      "/images/projects/10/5.jpeg",
+      "/images/projects/10/6.jpeg",
+      "/images/projects/10/7.jpeg",
+      "/images/projects/10/8.jpeg",
+      "/images/projects/10/9.jpeg"
+    ],
+    "isCompleted": false
+  },
+  {
+    "id": 11,
+    "title": {
+      "uz-latin": "Acwa Power Sirdaryo Shirin 1500MW CCGT Loyihasi",
+      "uz-cyrillic": "Acwa Power Сирдарё Ширин 1500MW CCGT Лойиҳаси",
+      "ru": "Проект Acwa Power Sirdaryo Shirin 1500MW CCGT",
+      "en": "ACWA POWER SIRDARYA SHIRIN 1500MW CCGT PROJECT"
+    },
+    "description": {
+      "uz-latin": "Acwa Power Sirdaryo Shirin 1500MW CCGT Loyihasi",
+      "uz-cyrillic": "Acwa Power Сирдарё Ширин 1500MW CCGT Лойиҳаси",
+      "ru": "Проект Acwa Power Sirdaryo Shirin 1500MW CCGT",
+      "en": "ACWA POWER SIRDARYA SHIRIN 1500MW CCGT PROJECT"
+    },
+    "imageUrls": [
+      "/images/projects/11/1.jpeg",
+      "/images/projects/11/2.jpeg",
+      "/images/projects/11/3.jpeg",
+      "/images/projects/11/4.jpeg",
+      "/images/projects/11/5.jpeg",
+      "/images/projects/11/6.jpeg",
+      "/images/projects/11/7.jpeg",
+      "/images/projects/11/8.jpeg",
+      "/images/projects/11/9.jpeg",
+      "/images/projects/11/10.jpeg",
+      "/images/projects/11/11.jpeg",
+      "/images/projects/11/12.jpeg",
+      "/images/projects/11/13.jpeg",
+      "/images/projects/11/14.jpeg",
+      "/images/projects/11/15.jpeg",
+      "/images/projects/11/16.jpeg",
+      "/images/projects/11/17.jpeg",
+      "/images/projects/11/18.jpeg",
+      "/images/projects/11/19.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 12,
+    "title": {
+      "uz-latin": "Chirchiq shahar issiqlik tarmog'i (quvur liniyasi)",
+      "uz-cyrillic": "Чирчиқ шаҳар иссиқлик тармоғи (қувур линияси)",
+      "ru": "Теплосеть города Чирчика (трубопровод)",
+      "en": "Chirchik city heating network (pipeline)"
+    },
+    "description": {
+      "uz-latin": "Chirchiq shahar issiqlik tarmog'i (quvur liniyasi)",
+      "uz-cyrillic": "Чирчиқ шаҳар иссиқлик тармоғи (қувур линияси)",
+      "ru": "Теплосеть города Чирчика (трубопровод)",
+      "en": "Chirchik city heating network (pipeline)"
+    },
+    "imageUrls": [
+      "/images/projects/12/1.jpeg",
+      "/images/projects/12/2.jpeg",
+      "/images/projects/12/3.jpeg",
+      "/images/projects/12/4.jpeg",
+      "/images/projects/12/5.jpeg",
+      "/images/projects/12/6.jpeg",
+      "/images/projects/12/7.jpeg",
+      "/images/projects/12/8.jpeg",
+      "/images/projects/12/9.jpeg",
+      "/images/projects/12/10.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 13,
+    "title": {
+      "uz-latin": "Bekobod kurort zonasi",
+      "uz-cyrillic": "Бекобод курорт зонаси",
+      "ru": "Бекабадская курортная зона",
+      "en": "Bekobod resort area"
+    },
+    "description": {
+      "uz-latin": "Bekobod kurort zonasi",
+      "uz-cyrillic": "Бекобод курорт зонаси",
+      "ru": "Бекабадская курортная зона",
+      "en": "Bekobod resort area"
+    },
+    "imageUrls": [
+      "/images/projects/13/1.jpeg",
+      "/images/projects/13/2.jpeg",
+      "/images/projects/13/3.jpeg",
+      "/images/projects/13/4.jpeg",
+      "/images/projects/13/5.jpeg",
+      "/images/projects/13/6.jpeg",
+      "/images/projects/13/7.jpeg",
+      "/images/projects/13/8.jpeg",
+      "/images/projects/13/9.jpeg",
+      "/images/projects/13/10.jpeg",
+      "/images/projects/13/11.jpeg",
+      "/images/projects/13/12.jpeg",
+      "/images/projects/13/13.jpeg",
+      "/images/projects/13/14.jpeg",
+      "/images/projects/13/15.jpeg",
+      "/images/projects/13/16.jpeg",
+      "/images/projects/13/17.jpeg",
+      "/images/projects/13/18.jpeg",
+      "/images/projects/13/19.jpeg",
+      "/images/projects/13/20.jpeg",
+      "/images/projects/13/21.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 14,
+    "title": {
+      "uz-latin": "Acwa Power Sirdaryo Shirin 1500MW CCGT Loyihasi",
+      "uz-cyrillic": "Acwa Power Сирдарё Ширин 1500MW CCGT Лойиҳаси",
+      "ru": "Проект Acwa Power Sirdaryo Shirin 1500MW CCGT",
+      "en": "Acwa Power Sirdarya Shirin 1500MW CCGT Project"
+    },
+    "description": {
+      "uz-latin": "Acwa Power Sirdaryo Shirin 1500MW CCGT Loyihasi",
+      "uz-cyrillic": "Acwa Power Сирдарё Ширин 1500MW CCGT Лойиҳаси",
+      "ru": "Проект Acwa Power Sirdaryo Shirin 1500MW CCGT",
+      "en": "Acwa Power Sirdarya Shirin 1500MW CCGT Project"
+    },
+    "imageUrls": [
+      "/images/projects/14/1.jpeg",
+      "/images/projects/14/2.jpeg",
+      "/images/projects/14/3.jpeg",
+      "/images/projects/14/4.jpeg",
+      "/images/projects/14/5.jpeg",
+      "/images/projects/14/6.jpeg"
+    ],
+    "isCompleted": false
+  },
+  {
+    "id": 15,
+    "title": {
+      "uz-latin": "Restoran, veterinariya, va kafe - Bekobod Kiyiklar Bog'i",
+      "uz-cyrillic": "Ресторан, ветеринария, ва кафе - Бекобод Кийиклар Боғи",
+      "ru": "Ресторан, ветеринарная клиника, и кафе - Бекабадский Deer Park",
+      "en": "Restaurant, vet, and cafe - Bekobod Deer Park"
+    },
+    "description": {
+      "uz-latin": "Restoran, veterinariya, va kafe - Bekobod Kiyiklar Bog'i",
+      "uz-cyrillic": "Ресторан, ветеринария, ва кафе - Бекобод Кийиклар Боғи",
+      "ru": "Ресторан, ветеринарная клиника, и кафе - Бекабадский Deer Park",
+      "en": "Restaurant, vet, and cafe - Bekobod Deer Park"
+    },
+    "imageUrls": [
+      "/images/projects/15/1.jpeg",
+      "/images/projects/15/2.jpeg",
+      "/images/projects/15/3.jpeg",
+      "/images/projects/15/4.jpeg",
+      "/images/projects/15/5.jpeg",
+      "/images/projects/15/6.jpeg",
+      "/images/projects/15/7.jpeg",
+      "/images/projects/15/8.jpeg",
+      "/images/projects/15/9.jpeg",
+      "/images/projects/15/10.jpeg",
+      "/images/projects/15/11.jpeg",
+      "/images/projects/15/12.jpeg",
+      "/images/projects/15/13.jpeg",
+      "/images/projects/15/14.jpeg",
+      "/images/projects/15/15.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 16,
+    "title": {
+      "uz-latin": "500 MVt quvvatli quyosh fotoelektr stansiyasi maydonini tekislash va rejalashtirish",
+      "uz-cyrillic": "500 МВт қувватли қуёш фотоэлектр станцияси майдонини текислаш ва режалаштириш",
+      "ru": "Планировка и выравнивание всей площадки солнечной электростанции мощностью 500 МВт (Самарканд)",
+      "en": "Leveling and grading the entire 500 MW photovoltaic site & construction of access and internal roads (Samarkand)"
+    },
+    "description": {
+      "uz-latin": "Butun 500 MVt quvvatli quyosh fotoelektr stansiyasi maydonini tekislash va rejalashtirish, kirish va ichki yo'llarni qurishni o'z ichiga oladi (500 MVt PV + 668 MWh Samarqand 2 Quyosh va BESS loyihasi, Olga qishlog'i, Nurobod tumani, Samarqand viloyati)",
+      "uz-cyrillic": "Бутун 500 МВт қувватли қуёш фотоэлектр станцияси майдонини текислаш ва режалаштириш, кириш ва ички йўлларни қуришни ўз ичига олади (500 МВт ПВ + 668 МВт·с Самарқанд 2 Қуёш ва БEСС лойиҳаси, Олга қишлоғи, Нуробод тумани, Самарқанд вилояти)",
+      "ru": "Планировка и выравнивание всей площадки солнечной электростанции мощностью 500 МВт, включая строительство подъездных и внутренних дорог (проект 500 МВт PV + 668 МВт·ч «Samarkand 2 Solar & BESS» в посёлке Ольга, Нурабадский район, Самаркандская область).",
+      "en": "LEVELLING AND GRADING OF THE ENTIRE 500 MW PV SITE, INCLUDING THE CONSTRUCTION OF ACCESS AND INTERNAL ROADS (500 MW PV + 668 MWh Samarkand 2 Solar & BESS Project in Olga settlement, Nurabad district, Samarkand region)"
+    },
+    "imageUrls": [
+      "/images/projects/16/1.jpeg",
+      "/images/projects/16/2.jpeg",
+      "/images/projects/16/3.jpeg",
+      "/images/projects/16/4.jpeg",
+      "/images/projects/16/5.jpeg",
+      "/images/projects/16/6.jpeg"
+    ],
+    "isCompleted": true
+  },
+  {
+    "id": 17,
+    "title": {
+      "uz-latin": "\"500 MVt BESS\" loyihasi uchun poydevorlar va ma'muriy binoni qurish",
+      "uz-cyrillic": "\"500 МВт БEСС\" лойиҳаси учун пойдеворлар ва маъмурий бинони қуриш",
+      "ru": "Строительство фундаментов и административного здания проекта \"500 МВт BESS\"",
+      "en": "Construction of foundations and administration building of \"500 MW BESS\" project"
+    },
+    "description": {
+      "uz-latin": "\"500 MVt BESS\" loyihasi uchun poydevorlar va ma'muriy binoni qurish (Batareya Energiya Saqlash Tizimi, Toshkentda) (Buyurtmachi – ACWA POWER, Gen. podryadchi – CHINA ENERGY INTL GROUP CAS CO., LTD.).",
+      "uz-cyrillic": "\"500 МВт БEСС\" лойиҳаси учун пойдеворлар ва маъмурий бинони қуриш (Батарея Энергия Сақлаш Тизими, Тошкентда) (Буюртмачи – ACWA POWER, Ген. подрядчи – CHINA ENERGY INTL GROUP CAS CO., LTD.).",
+      "ru": "Строительство фундаментов и административного здания проекта \"500 МВт BESS\" (Система хранения энергии на аккумуляторах в Ташкенте) (Заказчик – ACWA POWER, Генеральный подрядчик – CHINA ENERGY INTL GROUP CAS CO., LTD.).",
+      "en": "Construction of foundations and administration building of the Project - 500 MW BESS (Battery Energy Storage System in Tashkent) (Owner - ACWA POWER, General contractor - CHINA ENERGY INTL GROUP CAS CO., LTD.)"
+    },
+    "imageUrls": [
+      "/images/projects/17/1.jpeg",
+      "/images/projects/17/2.jpeg",
+      "/images/projects/17/3.jpeg",
+      "/images/projects/17/4.jpeg",
+      "/images/projects/17/5.jpeg"
+    ],
+    "isCompleted": false
   }
 ]

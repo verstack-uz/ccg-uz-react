@@ -21,7 +21,15 @@ describe("Projects class - Singleton", () => {
             },
             {} as Record<LanguageCode, string>,
           ),
+          description: languageCodes.reduce(
+            (acc, code) => {
+              acc[code] = `Description in ${code}`;
+              return acc;
+            },
+            {} as Record<LanguageCode, string>,
+          ),
           imageUrls: ["image1.png"],
+          isCompleted: true,
         } as Project,
       ],
     }));
@@ -66,12 +74,28 @@ describe("Projects class - Singleton", () => {
           },
           {} as Record<LanguageCode, string>,
         ),
+        description: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Description in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
         imageUrls: ["image1.png"],
+        isCompleted: true,
       },
       {
         id: 1,
         // Missing title field
+        description: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Description in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
         imageUrls: ["image1.png"],
+        isCompleted: false,
       },
       {
         id: 2,
@@ -83,20 +107,28 @@ describe("Projects class - Singleton", () => {
           },
           {} as Record<LanguageCode, string>,
         ),
+        description: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Description in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
         imageUrls: ["image1.png"],
+        isCompleted: false,
       },
       {
         id: 3,
-        title: languageCodes
-          .filter((code) => code !== languageCodes[0])
-          .reduce(
-            (acc, code) => {
-              acc[code] = `Title in ${code}`;
-              return acc;
-            },
-            {} as Record<LanguageCode, string>,
-          ),
-        // Missing imageUrls field
+        title: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Title in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
+        // Missing description field
+        imageUrls: ["image1.png"],
+        isCompleted: true,
       },
       {
         id: 4,
@@ -107,7 +139,75 @@ describe("Projects class - Singleton", () => {
           },
           {} as Record<LanguageCode, string>,
         ),
+        // Missing description for a specific language
+        description: languageCodes.reduce(
+          (acc, code, index) => {
+            acc[code] = index === 0 ? "   " : `Description in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
+        imageUrls: ["image1.png"],
+        isCompleted: false,
+      },
+      {
+        id: 5,
+        title: languageCodes
+          .filter((code) => code !== languageCodes[0])
+          .reduce(
+            (acc, code) => {
+              acc[code] = `Title in ${code}`;
+              return acc;
+            },
+            {} as Record<LanguageCode, string>,
+          ),
+        description: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Description in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
+        // Missing imageUrls field
+        isCompleted: true,
+      },
+      {
+        id: 6,
+        title: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Title in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
+        description: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Description in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
         imageUrls: [], // Empty imageUrls
+        isCompleted: false,
+      },
+      {
+        id: 7,
+        title: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Title in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
+        description: languageCodes.reduce(
+          (acc, code) => {
+            acc[code] = `Description in ${code}`;
+            return acc;
+          },
+          {} as Record<LanguageCode, string>,
+        ),
+        imageUrls: ["image1.png"],
+        // Missing isCompleted field
       },
     ];
 
@@ -138,7 +238,15 @@ describe("Projects class - Singleton", () => {
             },
             {} as Record<LanguageCode, string>,
           ),
+          description: languageCodes.reduce(
+            (acc, code) => {
+              acc[code] = `Description in ${code}`;
+              return acc;
+            },
+            {} as Record<LanguageCode, string>,
+          ),
           imageUrls: ["image1.png"],
+          isCompleted: true,
         } as Project;
       }),
     }));
