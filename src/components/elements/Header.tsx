@@ -18,7 +18,7 @@ export default function Header(props: HeaderProps) {
 
   const navLinks = [
     { name: t("navbar.company"), path: AppPaths.COMPANY },
-    { name: t("navbar.projects"), path: AppPaths.PROJECTS },
+    { name: t("navbar.projects"), path: AppPaths.PROJECTS_LIST },
     { name: t("navbar.services"), path: AppPaths.WHAT_WE_DO },
     { name: t("navbar.career"), path: AppPaths.CAREER },
     { name: t("navbar.equipments"), path: AppPaths.EQUIPMENTS },
