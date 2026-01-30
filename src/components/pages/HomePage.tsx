@@ -3,10 +3,11 @@ import { useNavigate } from "react-router-dom";
 
 import AppPaths from "@/routes/AppPaths";
 import ProjectsCarousel from "@/components/elements/ProjectsCarousel";
+import Services from "@/components/elements/Services";
+import PartnersMarquee from "@/components/elements/PartnersMarquee";
 import { ShinyButton } from "@/components/ui/shiny-button";
 import { Highlighter } from "@/components/ui/highlighter";
-import Services from "@/components/elements/Services";
-import { PartnersMarquee } from "@/components/elements/PartnersMarquee";
+import Features from "../elements/Features";
 
 export default function HomePage() {
   const navigate = useNavigate();
@@ -86,6 +87,18 @@ export default function HomePage() {
         {t("Bizning hamkorlar").toUpperCase()}
       </h1>
       <PartnersMarquee />
+
+      {/* Biz bilan ishlashining afzalliklari */}
+      <div className={"bg-[#333] text-white mt-16 py-8 md:mt-24"}>
+        <h1
+          className={
+            "mb-4 md:mb-8 text-2xl md:text-4xl text-center tracking-normal"
+          }
+        >
+          {t("Biz bilan ishlashining afzalliklari").toUpperCase()}
+        </h1>
+        <Features />
+      </div>
     </>
   );
 }

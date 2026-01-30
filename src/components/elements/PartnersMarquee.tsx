@@ -1,6 +1,6 @@
 import { Marquee } from "@/components/ui/marquee";
 
-export function PartnersMarquee() {
+export default function PartnersMarquee() {
   const partnerLogoUrls = [
     "/images/partners/1_China_Energy_Engineering_Corporation.svg",
     "/images/partners/2_ACWA_Power.svg",
