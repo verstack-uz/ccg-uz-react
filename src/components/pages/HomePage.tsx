@@ -6,6 +6,7 @@ import ProjectsCarousel from "@/components/elements/ProjectsCarousel";
 import { ShinyButton } from "@/components/ui/shiny-button";
 import { Highlighter } from "@/components/ui/highlighter";
 import Services from "@/components/elements/Services";
+import { PartnersMarquee } from "@/components/elements/PartnersMarquee";
 
 export default function HomePage() {
   const navigate = useNavigate();
@@ -75,6 +76,16 @@ export default function HomePage() {
         {t("Tugallangan loyihalar").toUpperCase()}
       </h1>
       <ProjectsCarousel isCompleted={true} />
+
+      {/* Hamkorlar */}
+      <h1
+        className={
+          "mt-16 mb-4 md:mt-24 md:mb-8 text-2xl md:text-4xl text-center tracking-normal"
+        }
+      >
+        {t("Bizning hamkorlar").toUpperCase()}
+      </h1>
+      <PartnersMarquee />
     </>
   );
 }
