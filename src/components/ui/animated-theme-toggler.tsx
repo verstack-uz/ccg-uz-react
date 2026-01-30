@@ -3,6 +3,7 @@ import { Moon, Sun } from "lucide-react";
 import { flushSync } from "react-dom";
 
 import { cn } from "@/lib/utils";
+import { useTheme } from "@/components/theme-provider";
 
 interface AnimatedThemeTogglerProps extends React.ComponentPropsWithoutRef<"button"> {
   duration?: number;
@@ -13,34 +14,22 @@ export const AnimatedThemeToggler = ({
   duration = 400,
   ...props
 }: AnimatedThemeTogglerProps) => {
-  const [isDark, setIsDark] = useState(false);
+  const { theme, setTheme } = useTheme();
   const buttonRef = useRef<HTMLButtonElement>(null);
+  const [isDark, setIsDark] = useState(theme === "dark");
 
   useEffect(() => {
-    const updateTheme = () => {
-      setIsDark(document.documentElement.classList.contains("dark"));
-    };
-
-    updateTheme();
-
-    const observer = new MutationObserver(updateTheme);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class"],
-    });
-
-    return () => observer.disconnect();
-  }, []);
+    setIsDark(theme === "dark");
+  }, [theme]);
 
   const toggleTheme = useCallback(async () => {
     if (!buttonRef.current) return;
 
     await document.startViewTransition(() => {
       flushSync(() => {
-        const newTheme = !isDark;
-        setIsDark(newTheme);
-        document.documentElement.classList.toggle("dark");
-        localStorage.setItem("theme", newTheme ? "dark" : "light");
+        const newTheme = isDark ? "light" : "dark";
+        setTheme(newTheme);
+        setIsDark(!isDark);
       });
     }).ready;
 

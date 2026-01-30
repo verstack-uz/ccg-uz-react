@@ -6,12 +6,12 @@
 
 const AppPath = {
   ROOT: "/",
-  PROJECTS: "/projects",
+  PROJECTS: "/#projects",
   COMPANY: "/company",
-  WHAT_WE_DO: "/what-we-do",
-  CAREER: "/career",
+  WHAT_WE_DO: "/#services",
+  CAREER: "/#career",
   EQUIPMENTS: "/equipments",
-  CONTACT: "/contact",
+  CONTACT: "/#contact",
 };
 
 export default AppPath;
