@@ -17,10 +17,10 @@ export function PartnersMarquee() {
       <Marquee pauseOnHover className="[--duration:20s]">
         {partnerLogoUrls.map((imageUrl) => (
           <img
-            className={"h-16 mx-4"}
+            className={"h-16 md:h-20 mx-2 md:mx-8"}
             key={imageUrl}
             src={imageUrl}
-            alt="Partner logo"
+            alt={imageUrl.split("/").pop()?.split(".")[0] || "Partner logo"}
           />
         ))}
       </Marquee>
