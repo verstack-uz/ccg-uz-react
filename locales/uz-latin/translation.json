@@ -1,0 +1,112 @@
+{
+  "about-company": {
+    "certificates": {
+      "certificate1": {
+        "alt": "Xavfi yuqori bo'lgan obyektlarni va potensial xavfli ishlab chiqarishlarni loyihalashtirish, qurish hamda ulardan foydalanish faoliyati uchun litsenziya"
+      },
+      "certificate2": {
+        "alt": "Muvofiqlik sertifikati"
+      },
+      "certificate3": {
+        "alt": "Turar-joy va turar-joy bo'lmagan binolarni qurish litsenziyasi"
+      },
+      "certificate4": {
+        "alt": "Yuridik shaxsni davlat ro'yxatidan o'tkazilganligi to'g'risidagi guvohnoma"
+      },
+      "certificate5": {
+        "alt": "Yuqori xavfli obyektlar va potensial xavfli ishlab chiqarishlarni loyihalashtirish, qurish va ekspluatatsiya qilish uchun litsenziya"
+      },
+      "title": "Sertifikatlar"
+    },
+    "paragraph1": "2013-yilda tashkil etilgan “Civil Construction Group” mas’uliyati cheklangan jamiyati tijorat, sanoat, tog‘-kon va qayta tiklanadigan energiya loyihalariga ixtisoslashgan yetakchi qurilish kompaniyasi hisoblanadi. Biz ekspert darajasidagi loyihalash, \"yagona to`liq yechim\" (loyihani boshidan ohirigacha to`la to`kis holda topshirish) xizmatlari va pudratchilik xizmatlarini taqdim etamiz. Har bir loyihani amalga oshirishda 11 yildan ortiq tajribaga ega bo'lgan yuqori malakali jamoamiz o`zining katta bilim va tajribasi bilan ishtirok etadi.",
+    "paragraph2": "Bizning xizmatlarimiz turar-joy qurilishi, tijorat qurilishi, loyihalarni boshqarish, loyihalash va qurish, atrof muhit va tabiat barqarorligini saqlashni o`z ichiga olgan qurilish, maxsus xizmatlar, infratuzilmani rivojlantirish va konsalting xizmatlarini o'z ichiga oladi; bunda sifat, mehnat muhofazasi va xavfsizligi, shuningdek, atrof-muhitni muhofaza qilishning eng yuqori standartlariga rioya qilamiz.",
+    "services": {
+      "service1": "Sifat kafolati va mas'uliyat",
+      "service2": "Alohida ob'yekt xavfsizligi ko'rsatkichlari",
+      "service3": "Mijozlarga doimo xarajatlarni tejashni ta'minlash",
+      "service4": "Ishonchlilik, ishonch va halollik asosida qurilgan biznes aloqalari",
+      "service5": "Murakkab muammolarni hal qilish uchun yechimlar",
+      "service6": "Qurilish muddatlari va yetkazib berish bosqichlarini qat'iy boshqarish",
+      "service7": "Innovatsiyalar va yaratuvchanlik orqali noan'anaviy yondashuvlardan foydalanib, alohida yechimlar ishlab chiqish",
+      "service8": "Asosiy maqsad va strategiyamizda, nafaqat loyihalarni to`la to`kis amalga oshirish, balki jamiyat uchun yaxshiroq kelajak va barqaror atrof-muhit yaratishga xizmat qilish",
+      "title": "Biz quyidagi imkoniyatlarni taqdim etamiz"
+    },
+    "summary": {
+      "point1": "60 dan ortiq kompaniyalar bilan birgalikda ishlab, muvaffaqiyatli yakunlangan loyihalarga egadir",
+      "point2": "50 dan ortiq malakali xodim va 250 dan ortiq doimiy ishchi mavjud",
+      "point3": "40 dan ortiq qurilish texnikalari va uskunalari mavjud",
+      "point4": "Eng yaxshi jamoaviy ish muhiti mavjud",
+      "point5": "Xodimlarga yaxshi karyera taklif etiladi – nafaqat tajriba, balki doimiy malaka oshirish imkoniyati ham beriladi",
+      "title": "Bizning kompaniya(da)"
+    },
+    "team": {
+      "paragraph1": "Bizning jamoamiz yuqori malakali va tajribali muhandislar, loyiha menejerlari, ish boshqaruvchilar, brigaderlar, mehnatni muhofaza qilish, xavfsizlik va atrof-muhitni muhofaza qilish jamoasi va operatorlardan iborat. Biz xodimlarimizni xavfsizlik boshqaruvining eng yuqori standartlariga mos keladigan eng so'nggi tizimlar va tartiblar bo'yicha muntazam ravishda o'qitamiz. Biz yuqori sifat, mehnat salomatligi va xavfsizligi va atrof-muhit standartlarini saqlab qolish bilan birga barcha loyihalar bo'yicha iqtisodiy jihatdan samarali va innovatsion ishlarni ta'minlash uchun xodimlarimizni o`qitish va tayyorlashga sarmoya kiritishda davom etamiz.",
+      "title": "Bizning jamoa"
+    }
+  },
+  "Biz bilan ishlashining afzalliklari": "Biz bilan ishlashining afzalliklari",
+  "Biz har doim ishimizni o'z vaqtida bajaramiz": "Biz har doim ishimizni o'z vaqtida bajaramiz",
+  "Biz o'rtacha xarajat evaziga sifatli ishni ta'minlaymiz": "Biz o'rtacha xarajat evaziga sifatli ishni ta'minlaymiz",
+  "Biz sanoat qurilishi va qurilishda katta tajribaga egamiz": "Biz sanoat qurilishi va qurilishda katta tajribaga egamiz",
+  "Biz xavfsiz ishlashni ta'minlaymiz": "Biz xavfsiz ishlashni ta'minlaymiz",
+  "Bizning hamkorlar": "Bizning hamkorlar",
+  "Bizning kontaktlar": "Bizning kontaktlar",
+  "Bizning quruvchilar jamoamiz tajribali mutaxassislardan iborat": "Bizning quruvchilar jamoamiz tajribali mutaxassislardan iborat",
+  "Bo'sh ish o'rinlari": "Bo'sh ish o'rinlari",
+  "Bo'sh ish o'rinlari ro'yxati": "Bo'sh ish o'rinlari ro'yxati",
+  "CCG Logo": "CCG Logotipi",
+  "Civil Construction Group": "Civil Construction Group",
+  "Completed projects": "Tugallangan loyihalar",
+  "Construction": "Qurilish",
+  "contact": {
+    "address": "Nurafshon ko'chasi 4, Тоshkent, O'zbekiston"
+  },
+  "Contact": "Bog'lanish",
+  "Current projects": "Joriy loyihalar",
+  "Email": "Email",
+  "Employees": "Xodimlar",
+  "Engineering": "Loyihalash",
+  "Equipments": "Texnika",
+  "Go to homepage": "Bosh sahifaga o'tish",
+  "header": {
+    "heroSubText": "Xavfsizlik haqida o'ylang. Xavfsiz ishlang.",
+    "heroText": "Halqaro darajadagi professional mutaxassislarga ishoning"
+  },
+  "Hozirgi vaqtda bo'sh ish o'ringlari yo'q": "Hozirgi vaqtda bo'sh ish o'ringlari yo'q",
+  "Image of construction company employees working on site": "Qurilish kompaniyasi xodimlarining qurilish maydonida ishlayotgan tasviri",
+  "Ish vaqti": "Ish vaqti",
+  "Karyera": "Karyera",
+  "Kompaniya haqida": "Kompaniya haqida",
+  "Let's build together": "Keling, birga quramiz",
+  "Manzil": "Manzil",
+  "navbar": {
+    "career": "Karyera",
+    "company": "Kompaniya",
+    "contact": "Bog'lanish",
+    "equipments": "Texnika",
+    "projects": "Loyihalar",
+    "services": "Xizmatlar"
+  },
+  "Other projects": "Boshqa loyihalar",
+  "Procurement": "Ta'minot",
+  "Project photo": "Fotosurat",
+  "Project photos": "Loyiha fotosuratlari",
+  "Service offer": "Xizmatlarimiz",
+  "Sifat": "Sifat",
+  "Start your construction project today!": "Qurilish loyihangizni bugunoq boshlang!",
+  "Telefon": "Telefon",
+  "Texnik xizmat ko'rsatuvchi": "Texnik xizmat ko'rsatuvchi",
+  "Tugallangan loyihalar": "Tugallangan loyihalar",
+  "vacancy": {
+    "description": "Bizning loyihalardagi jamoalarimiz yuqori malakali va tajribali muhandislar, loyiha menejerlari, yordamchi xodimlar, qurilish brigadalari, mehnatni muhofaza qilish bo'yicha mutaxassislar va operatorlardan iborat. Biz muntazam ravishda xodimlarimizga xavfsizlikni boshqarishning eng yuqori standartlariga javob beradigan eng yangi tizimlar va protseduralarni o'rgatamiz va asosiy xodimlarning birinchi tibbiy yordam bo'yicha malakaga ega bo'lishini ta'minlaymiz. Biz yuqori sifat, mehnatni muhofaza qilish va xavfsizlik standartlari va atrof-muhit standartlarini saqlab qolgan holda barcha loyihalar bo'yicha tejamkor va innovatsion ishlarni ta'minlash uchun xodimlarimizni o'qitishga sarmoya kiritishda davom etamiz.",
+    "main_statement": "Biz haqiqiy professionallar jamoasini jamlashga erishdik",
+    "statement1": "Kompaniyada eng yaxshi jamoaviy ish muhiti mavjud.",
+    "statement2": "Biz allaqachon bir nechta xalqaro loyihalarni yakunladik va yangi milliy va xalqaro loyihalar ustida ishlashni davom ettirmoqdamiz.",
+    "statement3": "Biz o'z xodimlarimizni nafaqat tajriba va malaka oshirishga, balki ularni ijodiy va innovatsion bo'lishga yo`llaymiz."
+  },
+  "Vaqtdan optimal foydalanish": "Vaqtdan optimal foydalanish",
+  "Xarajat samaradorligi": "Xarajat samaradorligi",
+  "Xavfsizlik": "Xavfsizlik",
+  "Xizmatlar": "Xizmatlar",
+  "Yuqori malakali jamoa": "Yuqori malakali jamoa"
+}
