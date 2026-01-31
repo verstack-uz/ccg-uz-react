@@ -1,7 +1,8 @@
 # CCG.uz portfolio website
 
 [![CI](https://github.com/verstack-uz/ccg-uz-react/actions/workflows/vitest.yml/badge.svg)](https://github.com/verstack-uz/ccg-uz-react/actions/workflows/vitest.yml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/88c7f982-255c-4c72-aa08-707f2952ad5a/deploy-status)](https://app.netlify.com/projects/ccg-uz/deploys)
+
+Staging environment: [ccg-uz-react.qobiljon-toshnazarov.workers.dev](https://ccg-uz-react.qobiljon-toshnazarov.workers.dev/)
 
 ## Technologies used:
 
@@ -16,7 +17,7 @@
 - Vitest + jsdom
 - Eslint + typescript-eslint + prettier
 - Github Actions (CI)
-- Netlify (CD)
+- Cloudflare Pages, Wrangler (CD) - [dashboard](https://dash.cloudflare.com/b3d4de7bc82c62138a104f97c825bdb2/workers/services/view/ccg-uz-react/production)
 
 ## Commands
 
