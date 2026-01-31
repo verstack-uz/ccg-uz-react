@@ -230,7 +230,7 @@ export default function HomePage() {
         }
       >
         {/* Location */}
-        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
+        <div className={"min-w-40 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/location-pin.svg"
             className={"w-16 h-16 object-contain"}
@@ -260,7 +260,7 @@ export default function HomePage() {
         </div>
 
         {/* Phone */}
-        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
+        <div className={"min-w-40 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/phone.svg"
             className={"w-16 h-16 object-contain"}
@@ -276,7 +276,7 @@ export default function HomePage() {
         </div>
 
         {/* Working hours */}
-        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
+        <div className={"min-w-40 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/time.svg"
             className={"w-16 h-16 object-contain"}
@@ -287,7 +287,7 @@ export default function HomePage() {
         </div>
 
         {/* Email */}
-        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
+        <div className={"min-w-40 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/email.svg"
             className={"w-16 h-16 object-contain"}
