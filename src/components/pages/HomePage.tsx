@@ -239,7 +239,7 @@ export default function HomePage() {
             {t("contact.address")}
             <br />(
             <a
-              href="https://yandex.uz/maps/-/CHuTEG6o"
+              href="https://yandex.uz/maps/-/CPABnSZI"
               target="_blank"
               className={"mt-2 text-lg underline hover:text-[#f7644a]"}
             >
