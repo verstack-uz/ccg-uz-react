@@ -1,4 +1,49 @@
 {
+  "about-company": {
+    "certificates": {
+      "certificate1": {
+        "alt": "Licence for the design, construction and exploitation of high risk objects and potentially hazardous productions"
+      },
+      "certificate2": {
+        "alt": "Certificate of conformity"
+      },
+      "certificate3": {
+        "alt": "Construction of residential and non-residential buildings"
+      },
+      "certificate4": {
+        "alt": "Certificate of state registration of a legal entity"
+      },
+      "certificate5": {
+        "alt": "Licence for the design, construction and exploitation of high risk objects and potentially hazardous productions"
+      },
+      "title": "Certificates"
+    },
+    "paragraph1": "Established in 2013, Civil Construction Group LLC is a leading construction company specializing in commercial, industrial, mining, and renewable energy projects. We provide expert design, turnkey solutions, and contracting services. With over 11 years of experience, our highly skilled team brings extensive knowledge and expertise to every project.",
+    "paragraph2": "Our services encompass Residential Construction, Commercial Construction, Project Management, Design and Build, Sustainable Construction, Specialized Services, Infrastructure Development and Consulting Services; all while maintaining the highest standards in quality, occupational health and safety, and environmental sustainability.",
+    "services": {
+      "service1": "Quality assurance and accountability",
+      "service2": "Outstanding site safety record",
+      "service3": "Continually delivering cost savings to clients",
+      "service4": "Business relationships built on reliability, trust and integrity",
+      "service5": "Solutions for resolving complex issues",
+      "service6": "Strict management of timelines and delivery milestones",
+      "service7": "Innovation and creativity in solution development, thereby using non-standard approaches to create exceptional",
+      "service8": "Higher purpose and vision that goes well beyond any individual project to create a better future for the community and a sustainable environment",
+      "title": "We provide"
+    },
+    "summary": {
+      "point1": "Has successfully completed projects working jointly with more than 60 companies",
+      "point2": "Employs over 50 qualified staff and more than 250 permanent workers",
+      "point3": "Owns more than 40 construction machinery and equipment",
+      "point4": "Has the best atmosphere of team working",
+      "point5": "Provides good career for personals-not only experience but also constant training",
+      "title": "Our company"
+    },
+    "team": {
+      "paragraph1": "Our project teams consist of highly skilled and experienced project engineers, project managers, support staff, site foremen, HSE team and operators. We regularly train our staff in the latest systems and procedures that adhere to the highest standards of safety management and ensure that key personnel are qualified in first aid. We continue to invest in the training of our staff to provide cost-effective and innovative work on all projects while maintaining high quality, occupational health & safety and environmental standards.",
+      "title": "Our team"
+    }
+  },
   "Biz bilan ishlashining afzalliklari": "Advantages of working with us",
   "Biz har doim ishimizni o'z vaqtida bajaramiz": "We always complete our work on time",
   "Biz o'rtacha xarajat evaziga sifatli ishni ta'minlaymiz": "We provide quality work at an average cost",
@@ -31,6 +76,7 @@
   "Image of construction company employees working on site": "Image of construction company employees working on site",
   "Ish vaqti": "Working hours",
   "Karyera": "Career",
+  "Kompaniya haqida": "Company",
   "Let's build together": "Let's build together",
   "Manzil": "Address",
   "navbar": {

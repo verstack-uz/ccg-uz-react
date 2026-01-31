@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { ArrowUp } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import ArrowUpIcon from "@/components/arrow-up-icon";
 
 export default function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,7 +27,13 @@ export default function ScrollToTopButton() {
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       aria-label="Scroll to top"
     >
-      <ArrowUp className="size-6" />
+      <ArrowUpIcon
+        className="text-black dark:text-white size-6"
+        duration={1.5}
+        strokeWidth={2}
+        repeatDelay={1}
+        ease="easeInOut"
+      />
     </Button>
   );
 }

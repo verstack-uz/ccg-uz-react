@@ -144,7 +144,7 @@ export default function HomePage() {
       >
         <img
           className={"w-96 h-96 object-cover"}
-          src="/images/career_ad.jpeg"
+          src="/images/career-ad.jpeg"
           alt="Vacancies"
         />
 
@@ -225,10 +225,12 @@ export default function HomePage() {
 
       <div
         id="contact"
-        className={"container mx-auto flex flex-col md:flex-row md:w-3xl gap-4"}
+        className={
+          "container mx-auto flex flex-row flex-wrap md:max-w-3xl gap-4 justify-center pt-4 px-2 mb-16"
+        }
       >
         {/* Location */}
-        <div className={"flex-1 flex flex-col items-center"}>
+        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/location-pin.svg"
             className={"w-16 h-16 object-contain"}
@@ -258,7 +260,7 @@ export default function HomePage() {
         </div>
 
         {/* Phone */}
-        <div className={"flex-1 flex flex-col items-center"}>
+        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/phone.svg"
             className={"w-16 h-16 object-contain"}
@@ -274,7 +276,7 @@ export default function HomePage() {
         </div>
 
         {/* Working hours */}
-        <div className={"flex-1 flex flex-col items-center"}>
+        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/time.svg"
             className={"w-16 h-16 object-contain"}
@@ -285,7 +287,7 @@ export default function HomePage() {
         </div>
 
         {/* Email */}
-        <div className={"flex-1 flex flex-col items-center"}>
+        <div className={"min-w-48 flex-1 flex flex-col items-center"}>
           <img
             src="/icons/email.svg"
             className={"w-16 h-16 object-contain"}

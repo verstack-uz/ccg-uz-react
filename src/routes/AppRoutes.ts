@@ -10,7 +10,17 @@ import { RouteObject } from "react-router-dom";
 
 import { routes as homeRoutes } from "@/routes/home";
 import { routes as projectRoutes } from "@/routes/projects";
+import { routes as companyRoutes } from "@/routes/company";
 
-const AppRoutes: RouteObject[] = [...homeRoutes, ...projectRoutes];
+const AppRoutes: RouteObject[] = [
+  // "/" (home page) and its sub-routes
+  ...homeRoutes,
+
+  // "/projects" and its sub-routes
+  ...projectRoutes,
+
+  // "/company" and its sub-routes
+  ...companyRoutes,
+];
 
 export default AppRoutes;
