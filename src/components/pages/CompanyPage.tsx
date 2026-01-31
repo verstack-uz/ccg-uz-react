@@ -24,52 +24,52 @@ export default function CompanyPage() {
     alt: string;
   }> = [
     {
-      src: "/images/certificates/certificate-1-1-uzru.jpg",
+      src: "/images/certificates/certificate-1-1-uzru.jpeg",
       langCodes: ["uz-latin", "uz-cyrillic", "ru"],
       alt: t("about-company.certificates.certificate1.alt"),
     },
     {
-      src: "/images/certificates/certificate-2-1-uzru.jpg",
+      src: "/images/certificates/certificate-2-1-uzru.jpeg",
       langCodes: ["uz-latin", "uz-cyrillic", "ru"],
       alt: t("about-company.certificates.certificate2.alt"),
     },
     {
-      src: "/images/certificates/certificate-2-2-uzru.jpg",
+      src: "/images/certificates/certificate-2-2-uzru.jpeg",
       langCodes: ["uz-latin", "uz-cyrillic", "ru"],
       alt: t("about-company.certificates.certificate2.alt"),
     },
     {
-      src: "/images/certificates/certificate-2-3-uzru.jpg",
+      src: "/images/certificates/certificate-2-3-uzru.jpeg",
       langCodes: ["uz-latin", "uz-cyrillic", "ru"],
       alt: t("about-company.certificates.certificate2.alt"),
     },
     {
-      src: "/images/certificates/certificate-3-1-eng.jpg",
+      src: "/images/certificates/certificate-3-1-eng.jpeg",
       langCodes: ["en"],
       alt: t("about-company.certificates.certificate3.alt"),
     },
     {
-      src: "/images/certificates/certificate-3-2-eng.jpg",
+      src: "/images/certificates/certificate-3-2-eng.jpeg",
       langCodes: ["en"],
       alt: t("about-company.certificates.certificate3.alt"),
     },
     {
-      src: "/images/certificates/certificate-3-3-eng.jpg",
+      src: "/images/certificates/certificate-3-3-eng.jpeg",
       langCodes: ["en"],
       alt: t("about-company.certificates.certificate3.alt"),
     },
     {
-      src: "/images/certificates/certificate-4-1-eng.jpg",
+      src: "/images/certificates/certificate-4-1-eng.jpeg",
       langCodes: ["en"],
       alt: t("about-company.certificates.certificate4.alt"),
     },
     {
-      src: "/images/certificates/certificate-4-2-uzru.jpg",
+      src: "/images/certificates/certificate-4-2-uzru.jpeg",
       langCodes: ["uz-latin", "uz-cyrillic", "ru"],
       alt: t("about-company.certificates.certificate4.alt"),
     },
     {
-      src: "/images/certificates/certificate-5-eng.jpg",
+      src: "/images/certificates/certificate-5-eng.jpeg",
       langCodes: ["en"],
       alt: t("about-company.certificates.certificate5.alt"),
     },
