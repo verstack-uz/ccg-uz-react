@@ -1,10 +1,11 @@
 import { Outlet, ScrollRestoration, useParams } from "react-router-dom";
+import { useState } from "react";
 
 import Header from "@/components/elements/Header";
 import Footer from "@/components/elements/Footer";
 import Projects from "@/lib/data/projects";
+import ScrollToTopButton from "@/components/elements/ScrollToTopButton";
 import i18n, { LanguageCode } from "@/i18n";
-import { useState } from "react";
 
 export default function ProjectLayout() {
   const params = useParams();
@@ -32,6 +33,7 @@ export default function ProjectLayout() {
       <Header title={title} bgImageUrl={project.imageUrls[0]} />
       <Outlet context={project} />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 }

@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import Header from "@/components/elements/Header";
 import Footer from "@/components/elements/Footer";
 import Statistics from "@/components/elements/Statistics";
+import ScrollToTopButton from "@/components/elements/ScrollToTopButton";
 
 export default function MainLayout() {
   const { t } = useTranslation();
@@ -18,6 +19,7 @@ export default function MainLayout() {
       <Statistics />
       <Outlet />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 }
