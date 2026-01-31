@@ -21,4 +21,7 @@ export default defineConfig({
     host: true,
     port: 8080,
   },
+
+  // Base public path for GitHub Pages
+  base: "/ccg-uz-react/",
 });
