@@ -3,14 +3,14 @@
   "homepage": "https://verstack-uz.github.io/ccg-uz-react/",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
     "format": "prettier --write .",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "i18n:status": "npx i18next-cli status",
-    "i18n:extract": "npx i18next-cli extract",
-    "build": "vite build"
+    "i18n:extract": "npx i18next-cli extract"
   },
   "dependencies": {
     "@radix-ui/react-aspect-ratio": "^1.1.8",

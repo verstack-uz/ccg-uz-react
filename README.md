@@ -23,4 +23,4 @@
 - `npm run test:coverage`
 - `npx i18next-cli status`
 - `npx i18next-cli extract`
-- `npm run deploy`
+- `npm run build && npm run deploy`
